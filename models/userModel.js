@@ -7,8 +7,8 @@ const userSchema = new mongoose.Schema({
     required: [true, 'A user must have a username'],
     unique: true,
     trim: true,
-    maxlength: [30, 'Username must have less or equal than 20 characters'],
-    minlength: [5, 'Username must have more or equal than 5 characters'],
+    maxlength: [30, 'Username must have less than 20 characters'],
+    minlength: [5, 'Username must have more than 5 characters'],
     validate: {
       validator: function(value) {
         return validator.matches(value, '^[a-zA-Z0-9_.-]*$');
@@ -20,20 +20,14 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: [true, 'A user must have a first name'],
     trim: true,
-    maxlength: [
-      20,
-      "User's first name must have less or equal than 20 characters"
-    ]
+    maxlength: [20, "User's first name must have less than 20 characters"]
     // validate: [validator.isAlpha, 'Tour name must only contain characters']
   },
   lastName: {
     type: String,
     required: [true, 'A user must have a last name'],
     trim: true,
-    maxlength: [
-      20,
-      "User's last name must have less or equal than 20 characters"
-    ]
+    maxlength: [20, "User's last name must have less than 20 characters"]
   },
   type: {
     type: String,
@@ -75,6 +69,12 @@ const userSchema = new mongoose.Schema({
     type: Boolean,
     default: true,
     select: false
+  },
+  rating: {
+    type: Number,
+    default: 1,
+    min: [1, 'Rating must be above 1.0'],
+    max: [5, 'Rating must be below 5.0']
   }
 });
 
