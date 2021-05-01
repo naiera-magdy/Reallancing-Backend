@@ -16,7 +16,7 @@ const proposalSchema = new mongoose.Schema({
     required: [true, 'The proposal needs to have a cover letter.'],
     trim: true,
     minlength: [50, 'The Cover Letter needs to have at least 50 characters.'],
-    maxlength: [1000, 'The Cover Letter must have less than 1000 characters.']
+    maxlength: [5000, 'The Cover Letter must have less than 5000 characters.']
   },
   proposedHourlyRate: {
     type: Number,
