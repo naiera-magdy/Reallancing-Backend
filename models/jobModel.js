@@ -22,7 +22,7 @@ const jobSchema = new mongoose.Schema({
     minlength: [5, 'Job skill must have more than 5 characters']
   },
   category: {
-    type: [String],
+    type: String,
     trim: true,
     maxlength: [50, 'Job category must have less than 50 characters'],
     minlength: [5, 'Job category must have more than 5 characters']
@@ -59,7 +59,7 @@ const jobSchema = new mongoose.Schema({
         'Less than 1 month'
       ],
       message:
-        'Choose from More than 6 months or 3 to 6 months or 1 to 3 months or Less than 1 month'
+        'Choose from |More than 6 months| or |3 to 6 months| or |1 to 3 months| or |Less than 1 month|'
     }
   }
 });
