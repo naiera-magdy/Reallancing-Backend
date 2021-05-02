@@ -4,6 +4,7 @@ const morgan = require('morgan');
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const jobRouter = require('./routes/jobRoutes');
+const proposalRouter = require('./routes/proposalRoutes');
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use((req, res, next) => {
 
 // 3) ROUTES
 app.use('/api/v1/jobs', jobRouter);
+app.use('/api/v1/proposals', proposalRouter);
 
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
