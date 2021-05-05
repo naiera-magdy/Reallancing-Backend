@@ -2,24 +2,11 @@ const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
 
+//-------------------------------------------------------------------------
+// USER SCHEMA
+// ------------------------------------------------------------------------
+
 const userSchema = new mongoose.Schema({
-  // -------------------------------
-  // Thinking of removing username
-  // -------------------------------
-  // username: {
-  //   type: String,
-  //   required: [true, 'A user must have a username'],
-  //   unique: true,
-  //   trim: true,
-  //   maxlength: [30, 'Username must have less than 20 characters'],
-  //   minlength: [5, 'Username must have more than 5 characters'],
-  //   validate: {
-  //     validator: function(value) {
-  //       return validator.matches(value, '^[a-zA-Z0-9_.-]*$');
-  //     },
-  //     message: 'username must only contain characters , numbers or _ . -'
-  //   }
-  // },
   firstName: {
     type: String,
     required: [true, 'A user must have a first name'],
@@ -83,6 +70,10 @@ const userSchema = new mongoose.Schema({
   }
 });
 
+//-------------------------------------------------------------------------
+// HOOKS
+// ------------------------------------------------------------------------
+
 userSchema.pre('save', async function(next) {
   if (!this.isModified('password')) return next();
   this.password = await bcrypt.hash(this.password, 12);
@@ -90,12 +81,73 @@ userSchema.pre('save', async function(next) {
   next();
 });
 
+//-------------------------------------------------------------------------
+// STATICS
+// ------------------------------------------------------------------------
+
+//Returns a select options object for private user (remove private data from selection)
+userSchema.statics.privateUser = () => {
+  return {
+    active: 0,
+    __v: 0
+  };
+};
+
+//Returns a select options object for public user (remove private data from selection)
+userSchema.statics.publicUser = () => {
+  return {
+    password: 0,
+    passwordConfirm: 0,
+    passwordChangedAt: 0,
+    passwordResetToken: 0,
+    passwordResetExpires: 0,
+    active: 0,
+    __v: 0
+  };
+};
+
+//-------------------------------------------------------------------------
+// METHODS
+// ------------------------------------------------------------------------
+
 userSchema.methods.correctPassword = async function(
   EnteredPassword,
   userPassword
 ) {
-  return bcrypt.compare(EnteredPassword, userPassword);
+  return await bcrypt.compare(EnteredPassword, userPassword);
 };
+
+userSchema.methods.changedPasswordAfter = function(JWTTimestamp) {
+  if (this.passwordChangedAt) {
+    const changedTimestamp = parseInt(
+      this.passwordChangedAt.getTime() / 1000,
+      10
+    );
+
+    return JWTTimestamp < changedTimestamp;
+  }
+
+  // False means NOT changed
+  return false;
+};
+
+userSchema.methods.publicUserInfo = function() {
+  const publicInfo = this.toObject({
+    virtuals: true
+  });
+
+  const fieldsToExclude = userSchema.statics.publicUser();
+  Object.keys(publicInfo).forEach(el => {
+    if (publicInfo[el] && fieldsToExclude[el] === 0) {
+      delete publicInfo[el];
+    }
+  });
+  return publicInfo;
+};
+
+//-------------------------------------------------------------------------
+// CREATE THE USER MODEL
+// ------------------------------------------------------------------------
 
 const User = mongoose.model('User', userSchema);
 module.exports = User;
