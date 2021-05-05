@@ -4,12 +4,14 @@ const proposalSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
-    required: [true, 'Proposal must belong to a specified user.']
+    required: [true, 'Proposal must belong to a specified user.'],
+    select: false
   },
   job: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Job',
-    required: [true, 'Proposal must belong to a specified job.']
+    required: [true, 'Proposal must belong to a specified job.'],
+    select: false
   },
   coverLetter: {
     type: String,
