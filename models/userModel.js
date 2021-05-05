@@ -1,40 +1,45 @@
 const mongoose = require('mongoose');
 const validator = require('validator');
+const bcrypt = require('bcryptjs');
 
 const userSchema = new mongoose.Schema({
-  username: {
-    type: String,
-    required: [true, 'A user must have a username'],
-    unique: true,
-    trim: true,
-    maxlength: [30, 'Username must have less than 20 characters'],
-    minlength: [5, 'Username must have more than 5 characters'],
-    validate: {
-      validator: function(value) {
-        return validator.matches(value, '^[a-zA-Z0-9_.-]*$');
-      },
-      message: 'username must only contain characters , numbers or _ . -'
-    }
-  },
+  // -------------------------------
+  // Thinking of removing username
+  // -------------------------------
+  // username: {
+  //   type: String,
+  //   required: [true, 'A user must have a username'],
+  //   unique: true,
+  //   trim: true,
+  //   maxlength: [30, 'Username must have less than 20 characters'],
+  //   minlength: [5, 'Username must have more than 5 characters'],
+  //   validate: {
+  //     validator: function(value) {
+  //       return validator.matches(value, '^[a-zA-Z0-9_.-]*$');
+  //     },
+  //     message: 'username must only contain characters , numbers or _ . -'
+  //   }
+  // },
   firstName: {
     type: String,
     required: [true, 'A user must have a first name'],
     trim: true,
-    maxlength: [20, "User's first name must have less than 20 characters"]
-    // validate: [validator.isAlpha, 'Tour name must only contain characters']
+    maxlength: [20, "User's first name must have less than 20 characters"],
+    validate: [validator.isAlpha, 'First name must only contain characters']
   },
   lastName: {
     type: String,
     required: [true, 'A user must have a last name'],
     trim: true,
-    maxlength: [20, "User's last name must have less than 20 characters"]
+    maxlength: [20, "User's last name must have less than 20 characters"],
+    validate: [validator.isAlpha, 'Last name must only contain characters']
   },
   type: {
     type: String,
     required: [true, 'Please select the account type'],
     enum: {
       values: ['client', 'freelancer', 'admin'],
-      message: 'Please select from [client, freelancer, admin]'
+      message: 'Please select from [client, freelancer]'
     }
   },
   email: {
@@ -77,6 +82,20 @@ const userSchema = new mongoose.Schema({
     max: [5, 'Rating must be below 5.0']
   }
 });
+
+userSchema.pre('save', async function(next) {
+  if (!this.isModified('password')) return next();
+  this.password = await bcrypt.hash(this.password, 12);
+  this.passwordConfirm = undefined;
+  next();
+});
+
+userSchema.methods.correctPassword = async function(
+  EnteredPassword,
+  userPassword
+) {
+  return bcrypt.compare(EnteredPassword, userPassword);
+};
 
 const User = mongoose.model('User', userSchema);
 module.exports = User;
