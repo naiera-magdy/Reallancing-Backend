@@ -1,6 +1,8 @@
 const express = require('express');
 const morgan = require('morgan');
 
+const cors = require('cors');
+
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const jobRouter = require('./routes/jobRoutes');
@@ -8,6 +10,17 @@ const proposalRouter = require('./routes/proposalRoutes');
 const authRouter = require('./routes/authRoutes');
 
 const app = express();
+
+const corsOptions = {
+  origin: true,
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  allowedHeaders: 'Content-Type,Authorization,X-Forwarded-For',
+  credentials: true,
+  preflightContinue: false,
+  optionsSuccessStatus: 204
+};
+
+app.use(cors(corsOptions));
 
 // 1) MIDDLEWARES
 if (process.env.NODE_ENV === 'development') {
