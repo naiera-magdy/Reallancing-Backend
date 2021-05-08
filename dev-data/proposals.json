@@ -1,0 +1,16 @@
+[
+    {
+        "_id": "609327af093ad060c8b3df77",
+        "user": "6092a3badbe28145603efc3d",
+        "job": "608ea0d479e5d50a98e11550",
+        "coverLetter": "I'm an amazing Developer, I'm also really experienced in Graphic Design.",
+        "proposedHourlyRate": 550
+    },
+    {
+        "_id": "60932aa5ae78a710785ac2e2",
+        "user": "6093235333c3002a7cb09e76",
+        "job": "608eb6b474d4911a50e96129",
+        "coverLetter": "I'm an amazing Developer, and I'm really experienced in Game Development.",
+        "proposedHourlyRate": 700
+    }
+]
