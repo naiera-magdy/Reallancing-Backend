@@ -61,7 +61,13 @@ const jobSchema = new mongoose.Schema({
       message:
         'Choose from |More than 6 months| or |3 to 6 months| or |1 to 3 months| or |Less than 1 month|'
     }
-  }
+  },
+  proposals: [
+    {
+      type: mongoose.Schema.ObjectId,
+      ref: 'Proposal'
+    }
+  ]
 });
 
 const Job = mongoose.model('Job', jobSchema);
