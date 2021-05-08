@@ -4,15 +4,18 @@ const authController = require('./../controllers/authController');
 
 const router = express.Router();
 
+// Protect all routes after this middleware
+router.use(authController.protectRoutes);
+
 router
   .route('/')
-  .post(authController.protectRoutes, jobController.createJob)
-  .get(authController.protectRoutes, jobController.getAllJobs);
+  .post(jobController.createJob)
+  .get(jobController.getAllJobs);
 
 router
   .route('/:id')
-  .get(authController.protectRoutes, jobController.getJob)
-  .patch(authController.protectRoutes, jobController.updateJob)
-  .delete(authController.protectRoutes, jobController.deleteJob);
+  .get(jobController.getJob)
+  .patch(jobController.updateJob)
+  .delete(jobController.deleteJob);
 
 module.exports = router;
