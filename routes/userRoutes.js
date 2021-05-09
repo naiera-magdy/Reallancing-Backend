@@ -8,6 +8,13 @@ const router = express.Router();
 router.use(authController.protectRoutes);
 
 router.get('/me', userController.getMe, userController.getUser);
+
+router.get(
+  '/me/proposals',
+  userController.getMe,
+  userController.getUserProposals
+);
+
 router.patch('/updateMe', userController.updateMe);
 router.delete('/deleteMe', userController.deleteMe);
 

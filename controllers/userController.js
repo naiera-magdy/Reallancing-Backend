@@ -61,6 +61,7 @@ exports.createUser = (req, res) => {
 };
 
 exports.getUser = factory.getOne(User);
+exports.getUserProposals = factory.getOne(User, { path: 'proposals' });
 exports.getAllUsers = factory.getAll(User);
 
 // Do NOT update passwords with this!
