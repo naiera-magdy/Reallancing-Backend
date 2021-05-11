@@ -21,7 +21,13 @@ const sendEmail = async options => {
   };
 
   // 3) Actually send the email
-  await transporter.sendMail(mailOptions);
+  await transporter.sendMail(mailOptions, function(error, info) {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log(`Email sent:  ${info.response}`);
+    }
+  });
 };
 
 module.exports = sendEmail;
