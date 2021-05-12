@@ -56,6 +56,10 @@ const userSchema = new mongoose.Schema(
         message: 'Passwords are not the same!'
       }
     },
+    location: {
+      type: String,
+      required: [true, 'Please provide a location']
+    },
     passwordChangedAt: Date,
     passwordResetToken: String,
     passwordResetExpires: Date,

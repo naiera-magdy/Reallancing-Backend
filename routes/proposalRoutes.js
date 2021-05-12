@@ -9,8 +9,11 @@ router.use(authController.protectRoutes);
 
 router
   .route('/')
-  .post(proposalController.createProposal)
-  .get(proposalController.getAllProposals);
+  .get(authController.restrictTo('client'), proposalController.getAllProposals)
+  .post(
+    authController.restrictTo('freelancer'),
+    proposalController.createProposal
+  );
 
 router
   .route('/:id')
