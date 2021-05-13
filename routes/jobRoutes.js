@@ -12,7 +12,7 @@ router.use('/:jobId/proposals', proposalRouter);
 
 router
   .route('/')
-  .post(jobController.createJob)
+  .post(authController.restrictTo('client'), jobController.createJob)
   .get(jobController.getAllJobs);
 
 router
