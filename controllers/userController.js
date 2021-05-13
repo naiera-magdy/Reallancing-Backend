@@ -1,4 +1,5 @@
 const User = require('./../models/userModel');
+const Freelancer = require('./../models/freelancerModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
 const factory = require('./handlerFactory');
@@ -60,7 +61,25 @@ exports.createUser = (req, res) => {
   });
 };
 
-exports.getUser = factory.getOne(User);
+exports.getUser = catchAsync(async (req, res, next) => {
+  let doc = await User.findById(req.params.id);
+  if (!doc) {
+    return next(new AppError(`No ${User} found with that ID`, 404));
+  }
+
+  if (doc.type === 'freelancer') {
+    doc = {
+      ...doc._doc,
+      freelancerInfo: await Freelancer.findOne({
+        userInfo: req.params.id
+      })
+    };
+  }
+  res.status(200).json({
+    status: 'success',
+    data: doc
+  });
+});
 exports.getUserProposals = factory.getOne(User, { path: 'proposals' });
 exports.getAllUsers = factory.getAll(User);
 

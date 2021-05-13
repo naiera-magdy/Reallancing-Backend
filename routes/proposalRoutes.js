@@ -2,16 +2,17 @@ const express = require('express');
 const proposalController = require('./../controllers/proposalController');
 const authController = require('../controllers/authController');
 
-const router = express.Router();
+const router = express.Router({ mergeParams: true });
 
 // Protect all routes after this middleware
 router.use(authController.protectRoutes);
 
 router
   .route('/')
-  .get(authController.restrictTo('client'), proposalController.getAllProposals)
+  .get(proposalController.setJobUserIds, proposalController.getAllProposals)
   .post(
     authController.restrictTo('freelancer'),
+    proposalController.setJobUserIds,
     proposalController.createProposal
   );
 
