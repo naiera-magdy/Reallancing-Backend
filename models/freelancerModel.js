@@ -18,12 +18,13 @@ const freelancerSchema = new mongoose.Schema({
     max: [2000, 'Hourly Rate max value is 2000 LE']
   },
   education: {
+    type: Object,
     university: {
       type: String
       //required: [true, 'Freelancer must have an experience level']
     },
     garduationYear: {
-      type: Date,
+      type: Number,
       min: [1950, "Date can't be before 1950"],
       max: [new Date().getFullYear(), "Date Can't exceed current year"]
       //required: [true, 'Freelancer must have an experience level']
@@ -41,6 +42,7 @@ const freelancerSchema = new mongoose.Schema({
     }
   ],
   experienceLevel: {
+    type: String,
     enum: {
       values: ['beginner', 'intermediate', 'expert'],
       message: 'Please select from [beginner, intermediate, expert]'
@@ -59,7 +61,7 @@ const freelancerSchema = new mongoose.Schema({
     ],
     validate: [
       function(value) {
-        return value >= 1;
+        return value.length >= 1;
       },
       'Freelancer must have at least one skill'
     ]

@@ -9,6 +9,8 @@ const jobRouter = require('./routes/jobRoutes');
 const proposalRouter = require('./routes/proposalRoutes');
 const authRouter = require('./routes/authRoutes');
 const userRouter = require('./routes/userRoutes');
+const categoryRouter = require('./routes/categoryRoutes');
+const skillRouter = require('./routes/skillRoutes');
 
 const app = express();
 
@@ -41,6 +43,8 @@ app.use('/api/v1/jobs', jobRouter);
 app.use('/api/v1/proposals', proposalRouter);
 app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/users', userRouter);
+app.use('/api/v1/categories', categoryRouter);
+app.use('/api/v1/skills', skillRouter);
 
 app.all('*', (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));

@@ -2,6 +2,7 @@ const crypto = require('crypto');
 const { promisify } = require('util');
 const jwt = require('jsonwebtoken');
 const User = require('./../models/userModel');
+const Freelancer = require('./../models/freelancerModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
 const Email = require('./../utils/email');
@@ -37,6 +38,9 @@ const createSendToken = (user, statusCode, res) => {
 };
 
 exports.signup = catchAsync(async (req, res, next) => {
+  if (req.body.type === 'freelancer' && !req.body.freelancerInfo) {
+    throw new AppError(`You have to specify freelancer's info`, 400);
+  }
   const user = await User.create({
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -44,11 +48,31 @@ exports.signup = catchAsync(async (req, res, next) => {
     password: req.body.password,
     passwordConfirm: req.body.passwordConfirm,
     rating: req.body.rating,
-    type: req.body.type === 'client' ? 'client' : 'freelancer' // if we want to add admin, create it from the database directly
+    type: req.body.type === 'client' ? 'client' : 'freelancer', // if we want to add admin, create it from the database directly
+    location: req.body.location
   });
+  if (req.body.type === 'freelancer') {
+    try {
+      await Freelancer.create({
+        title: req.body.freelancerInfo.title,
+        overview: req.body.freelancerInfo.overview,
+        hourlyRate: req.body.freelancerInfo.hourlyRate,
+        education: req.body.freelancerInfo.education,
+        workExperience: req.body.freelancerInfo.workExperience,
+        experienceLevel: req.body.freelancerInfo.experienceLevel,
+        category: req.body.freelancerInfo.category,
+        skills: req.body.freelancerInfo.skills,
+        languages: req.body.freelancerInfo.languages,
+        userInfo: user._id
+      });
+    } catch (err) {
+      await User.findByIdAndDelete(user._id);
+      throw err;
+    }
+  }
 
   const url = `${req.protocol}://${req.get('host')}/me`;
-  console.log(url);
+  // console.log(url);
   await new Email(user, url).sendWelcome();
 
   createSendToken(user, 201, res);
@@ -120,7 +144,7 @@ exports.protectRoutes = catchAsync(async (req, res, next) => {
 
 exports.restrictTo = (...roles) => {
   return (req, res, next) => {
-    if (!roles.includes(req.user.role)) {
+    if (!roles.includes(req.user.type)) {
       return next(
         new AppError('You do not have permission to perform this action', 403)
       );
@@ -173,7 +197,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
       message: 'Token sent to email!'
     });
   } catch (err) {
-    console.log(err);
+    // console.log(err);
     user.passwordResetToken = undefined;
     user.passwordResetExpires = undefined;
     await user.save({ validateBeforeSave: false });
