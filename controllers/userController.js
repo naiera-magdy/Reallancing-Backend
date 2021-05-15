@@ -1,5 +1,6 @@
 const User = require('./../models/userModel');
 const Freelancer = require('./../models/freelancerModel');
+const Job = require('./../models/jobModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
 const factory = require('./handlerFactory');
@@ -80,9 +81,17 @@ exports.getUser = catchAsync(async (req, res, next) => {
     data: doc
   });
 });
-exports.getUserProposals = factory.getOne(User, { path: 'proposals' });
+// exports.getUserProposals = factory.getOne(User, { path: 'proposals' });
 exports.getAllUsers = factory.getAll(User);
 
 // Do NOT update passwords with this!
 exports.updateUser = factory.updateOne(User);
 exports.deleteUser = factory.deleteOne(User);
+
+exports.getMyJobs = catchAsync(async (req, res, next) => {
+  const jobs = await Job.find({ clientId: req.user.id });
+  res.status(200).json({
+    status: 'success',
+    data: jobs
+  });
+});
