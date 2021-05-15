@@ -9,11 +9,9 @@ router.use(authController.protectRoutes);
 
 router.get('/me', userController.getMe, userController.getUser);
 
-router.get(
-  '/me/proposals',
-  userController.getMe,
-  userController.getUserProposals
-);
+router
+  .route('/me/jobs')
+  .get(authController.restrictTo('client'), userController.getMyJobs);
 
 router.patch('/updateMe', userController.updateMe);
 router.delete('/deleteMe', userController.deleteMe);

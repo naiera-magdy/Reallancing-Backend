@@ -1,6 +1,10 @@
 const Job = require('./../models/jobModel');
 const factory = require('./handlerFactory');
 
+exports.setClientId = function(req, res, next) {
+  req.body.clientId = req.user.id;
+  next();
+};
 exports.createJob = factory.createOne(Job);
 
 exports.getAllJobs = factory.getAll(Job);
