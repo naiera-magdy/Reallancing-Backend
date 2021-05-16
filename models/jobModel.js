@@ -62,6 +62,16 @@ const jobSchema = new mongoose.Schema(
         message:
           'Choose from |More than 6 months| or |3 to 6 months| or |1 to 3 months| or |Less than 1 month|'
       }
+    },
+    clientId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'User',
+      required: [true, 'Job must belong to a specific Client.'],
+      select: false
+    },
+    createdAt: {
+      type: Date,
+      default: Date()
     }
   },
   {
@@ -69,6 +79,11 @@ const jobSchema = new mongoose.Schema(
     toObject: { virtuals: true }
   }
 );
+
+jobSchema.pre('save', async function(next) {
+  this.createdAt = Date();
+  next();
+});
 
 // Virtual populate to get a job's proposals
 jobSchema.virtual('proposals', {

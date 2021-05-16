@@ -21,9 +21,12 @@ const proposalSchema = new mongoose.Schema(
     },
     proposedHourlyRate: {
       type: Number,
-      required: [true, 'A freelancer must have a proposed hourly rate'],
       min: [10, 'Hourly Rate min value is 10 LE'],
       max: [2000, 'Hourly Rate max value is 2000 LE']
+    },
+    createdAt: {
+      type: Date,
+      default: Date()
     }
   },
   {
@@ -31,6 +34,11 @@ const proposalSchema = new mongoose.Schema(
     toObject: { virtuals: true }
   }
 );
+
+proposalSchema.pre('save', async function(next) {
+  this.createdAt = Date();
+  next();
+});
 
 proposalSchema.pre(/^find/, function(next) {
   this.populate({
