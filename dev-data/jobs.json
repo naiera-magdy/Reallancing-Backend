@@ -1,18 +1,21 @@
 [
     {
         "skills": [
-            "Adobe Photoshop",
-            "Adobe Illustrator",
-            "Video Editing"
+            "Unreal Engine",
+            "Game Development",
+            "Autodesk Maya"
         ],
-        "_id": "608ea0d479e5d50a98e11550",
-        "headline": "Graphic Designer for Social Media Facebook Image Ads and Onlineshop graphics",
-        "description": "I‘m looking for a graphic designer who has experience with Facebook ads. I work with different clients to optimize their social media ads performance and K need a partner who can create attention strong image ads, is very creative and works fast.",
-        "category": "Graphic Design",
-        "experience": "Entry level",
-        "minHourlyRate": 20,
-        "maxHourlyRate": 5000,
-        "duration": "3 to 6 months"
+        "_id": "609f0d3771507f08887d4553",
+        "createdAt": "2021-05-14T23:52:23.585Z",
+        "headline": "Vue.js Developer for university portal",
+        "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
+        "category": "Web Development",
+        "experience": "Expert",
+        "minHourlyRate": 215,
+        "maxHourlyRate": 3453,
+        "duration": "1 to 3 months",
+        "clientId": "609c8a67759ef16a64e5fe6d",
+        "id": "609f0d3771507f08887d4553"
     },
     {
         "skills": [
@@ -27,6 +30,59 @@
         "experience": "Intermediate",
         "minHourlyRate": 200,
         "maxHourlyRate": 7000,
-        "duration": "More than 6 months"
+        "duration": "More than 6 months",
+        "clientId": "609c8a67759ef16a64e5fe6d",
+        "id": "608eb6b474d4911a50e96129"
+    },
+    {
+        "skills": [
+            "Unreal Engine",
+            "Game Development",
+            "Autodesk Maya"
+        ],
+        "_id": "609c8da5b5fe0b6f700c2ceb",
+        "headline": "Vue.js Developer for complex global ecommerce components",
+        "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
+        "category": "Web Development",
+        "experience": "Expert",
+        "minHourlyRate": 215,
+        "maxHourlyRate": 3453,
+        "duration": "1 to 3 months",
+        "clientId": "609c8a67759ef16a64e5fe6d",
+        "id": "609c8da5b5fe0b6f700c2ceb"
+    },
+    {
+        "skills": [
+            "Laravel",
+            "MongoDB",
+            "PostgreSQL"
+        ],
+        "_id": "609c8e13b5fe0b6f700c2ced",
+        "headline": "Laravel/PHP Backend API Engineer",
+        "description": "The Laravel/PHP Engineer is responsible for managing the design and implementation of backend and full stack Laravel PHP applications. You will be the developer primarily responsible for the overall design, implementation putting your extensive and thorough knowledge of the framework to use to create cleanly coded, scalable, RESTful API backends for various projects and services.",
+        "category": "Web Development",
+        "experience": "Expert",
+        "minHourlyRate": 215,
+        "maxHourlyRate": 3453,
+        "duration": "1 to 3 months",
+        "clientId": "609c8a67759ef16a64e5fe6d",
+        "id": "609c8e13b5fe0b6f700c2ced"
+    },
+    {
+        "skills": [
+            "Unreal Engine",
+            "Game Development",
+            "Autodesk Maya"
+        ],
+        "_id": "609f0c4927ec594fe88d7907",
+        "headline": "Vue.js Developer for university portal",
+        "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
+        "category": "Web Development",
+        "experience": "Expert",
+        "minHourlyRate": 215,
+        "maxHourlyRate": 3453,
+        "duration": "1 to 3 months",
+        "clientId": "609c8a67759ef16a64e5fe6d",
+        "id": "609f0c4927ec594fe88d7907"
     }
 ]
