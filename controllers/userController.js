@@ -65,7 +65,7 @@ exports.createUser = (req, res) => {
 exports.getUser = catchAsync(async (req, res, next) => {
   let doc = await User.findById(req.params.id);
   if (!doc) {
-    return next(new AppError(`No ${User} found with that ID`, 404));
+    return next(new AppError(`No User found with that ID`, 404));
   }
 
   if (doc.type === 'freelancer') {

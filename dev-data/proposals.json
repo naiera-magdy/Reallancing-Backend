@@ -1,16 +1,194 @@
 [
     {
-        "_id": "609327af093ad060c8b3df77",
-        "user": "6092a3badbe28145603efc3d",
-        "job": "608ea0d479e5d50a98e11550",
-        "coverLetter": "I'm an amazing Developer, I'm also really experienced in Graphic Design.",
-        "proposedHourlyRate": 550
+        "_id": "609c89e3759ef16a64e5fe6c",
+        "coverLetter": "Hello My dears, i am applying for your job. Please take me",
+        "proposedHourlyRate": 20,
+        "job": {
+            "skills": [
+                "Unreal Engine",
+                "Game Development",
+                "Autodesk Maya"
+            ],
+            "_id": "608eb6b474d4911a50e96129",
+            "headline": "Game developer​/3d unity designer",
+            "description": "I have a game in the ​unreal engine and I need few modifications the game is complete but it is for PC.    it is a survival game, I want to modify it and I want to add a voice-over IP, registration system, and master server. All front end, do you have experience in such a project? also looking for 3d object designer and character designs. It is low poly and I can provide an example",
+            "category": "IT & Networking",
+            "experience": "Intermediate",
+            "minHourlyRate": 200,
+            "maxHourlyRate": 7000,
+            "duration": "More than 6 months",
+            "__v": 0,
+            "clientId": "609c8a67759ef16a64e5fe6d",
+            "id": "608eb6b474d4911a50e96129"
+        },
+        "user": {
+            "rating": 1.4,
+            "_id": "609c5048c6393d1f08471138",
+            "firstName": "Ahmed",
+            "lastName": "Ali",
+            "id": "609c5048c6393d1f08471138"
+        },
+        "__v": 0,
+        "id": "609c89e3759ef16a64e5fe6c"
     },
     {
-        "_id": "60932aa5ae78a710785ac2e2",
-        "user": "6093235333c3002a7cb09e76",
-        "job": "608eb6b474d4911a50e96129",
+        "_id": "609d3ab203d5273c6469d718",
+        "coverLetter": "Hi there,\n\nI just read your posting. It sounds like you need an expert in cold emails to advise you on everything from the content to the overall strategy.\n\nI have a background in email marketing and have been doing this for 3 years. Cold emailing in B2B is what I specialize in.\n\nI can work with you to write the content and subject lines, recommend the best technologies for you to use, and more. Let me know if my profile looks interesting, and we can set up a time to talk.\n\nBest regards,",
+        "job": {
+            "skills": [
+                "Unreal Engine",
+                "Game Development",
+                "Autodesk Maya"
+            ],
+            "_id": "608eb6b474d4911a50e96129",
+            "headline": "Game developer​/3d unity designer",
+            "description": "I have a game in the ​unreal engine and I need few modifications the game is complete but it is for PC.    it is a survival game, I want to modify it and I want to add a voice-over IP, registration system, and master server. All front end, do you have experience in such a project? also looking for 3d object designer and character designs. It is low poly and I can provide an example",
+            "category": "IT & Networking",
+            "experience": "Intermediate",
+            "minHourlyRate": 200,
+            "maxHourlyRate": 7000,
+            "duration": "More than 6 months",
+            "__v": 0,
+            "clientId": "609c8a67759ef16a64e5fe6d",
+            "id": "608eb6b474d4911a50e96129"
+        },
+        "user": {
+            "rating": 1.4,
+            "_id": "609c5048c6393d1f08471138",
+            "firstName": "Ahmed",
+            "lastName": "Ali",
+            "id": "609c5048c6393d1f08471138"
+        },
+        "__v": 0,
+        "id": "609d3ab203d5273c6469d718"
+    },
+    {
+        "_id": "609f0f8abfa17e1e2876125c",
+        "createdAt": "2021-05-14T23:58:58.000Z",
+        "job": {
+            "skills": [
+                "Unreal Engine",
+                "Game Development",
+                "Autodesk Maya"
+            ],
+            "_id": "608eb6b474d4911a50e96129",
+            "headline": "Game developer​/3d unity designer",
+            "description": "I have a game in the ​unreal engine and I need few modifications the game is complete but it is for PC.    it is a survival game, I want to modify it and I want to add a voice-over IP, registration system, and master server. All front end, do you have experience in such a project? also looking for 3d object designer and character designs. It is low poly and I can provide an example",
+            "category": "IT & Networking",
+            "experience": "Intermediate",
+            "minHourlyRate": 200,
+            "maxHourlyRate": 7000,
+            "duration": "More than 6 months",
+            "__v": 0,
+            "clientId": "609c8a67759ef16a64e5fe6d",
+            "id": "608eb6b474d4911a50e96129"
+        },
         "coverLetter": "I'm an amazing Developer, and I'm really experienced in Game Development.",
-        "proposedHourlyRate": 700
+        "proposedHourlyRate": 700,
+        "user": {
+            "rating": 1.4,
+            "_id": "609c5048c6393d1f08471138",
+            "firstName": "Ahmed",
+            "lastName": "Ali",
+            "id": "609c5048c6393d1f08471138"
+        },
+        "__v": 0,
+        "id": "609f0f8abfa17e1e2876125c"
+    },
+    {
+        "_id": "609f10abbfa17e1e2876125e",
+        "createdAt": "2021-05-14T23:58:58.000Z",
+        "job": null,
+        "coverLetter": "I'm an amazing Developer, and I'm really experienced in Game Development.",
+        "proposedHourlyRate": 700,
+        "user": {
+            "rating": 1.4,
+            "_id": "609c5048c6393d1f08471138",
+            "firstName": "Ahmed",
+            "lastName": "Ali",
+            "id": "609c5048c6393d1f08471138"
+        },
+        "__v": 0,
+        "id": "609f10abbfa17e1e2876125e"
+    },
+    {
+        "_id": "60a00d8fdda9a216284cb137",
+        "createdAt": "2021-05-15T18:06:07.000Z",
+        "coverLetter": "testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest",
+        "job": null,
+        "user": {
+            "rating": 1.4,
+            "_id": "609c5048c6393d1f08471138",
+            "firstName": "Ahmed",
+            "lastName": "Ali",
+            "id": "609c5048c6393d1f08471138"
+        },
+        "__v": 0,
+        "id": "60a00d8fdda9a216284cb137"
+    },
+    {
+        "_id": "60a011bddda9a216284cb138",
+        "createdAt": "2021-05-15T18:23:57.000Z",
+        "coverLetter": "asdnsakn dlkasndlksand lknaslkn dlaskndl knsalkdn klasnd lknasld",
+        "job": {
+            "skills": [
+                "Unreal Engine",
+                "Game Development",
+                "Autodesk Maya"
+            ],
+            "_id": "609f0d3771507f08887d4553",
+            "createdAt": "2021-05-14T23:52:23.585Z",
+            "headline": "Vue.js Developer for university portal",
+            "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
+            "category": "Web Development",
+            "experience": "Expert",
+            "minHourlyRate": 215,
+            "maxHourlyRate": 3453,
+            "duration": "1 to 3 months",
+            "clientId": "609c8a67759ef16a64e5fe6d",
+            "__v": 0,
+            "id": "609f0d3771507f08887d4553"
+        },
+        "user": {
+            "rating": 1.4,
+            "_id": "609c5048c6393d1f08471138",
+            "firstName": "Ahmed",
+            "lastName": "Ali",
+            "id": "609c5048c6393d1f08471138"
+        },
+        "__v": 0,
+        "id": "60a011bddda9a216284cb138"
+    },
+    {
+        "_id": "60a01628dda9a216284cb13a",
+        "createdAt": "2021-05-15T18:42:48.000Z",
+        "coverLetter": "eskfnlasknflnasklfn asn fknaslkfnaslknflknsalk fasln lkasn lknasl",
+        "job": {
+            "skills": [
+                "Unreal Engine",
+                "Game Development",
+                "Autodesk Maya"
+            ],
+            "_id": "608eb6b474d4911a50e96129",
+            "headline": "Game developer​/3d unity designer",
+            "description": "I have a game in the ​unreal engine and I need few modifications the game is complete but it is for PC.    it is a survival game, I want to modify it and I want to add a voice-over IP, registration system, and master server. All front end, do you have experience in such a project? also looking for 3d object designer and character designs. It is low poly and I can provide an example",
+            "category": "IT & Networking",
+            "experience": "Intermediate",
+            "minHourlyRate": 200,
+            "maxHourlyRate": 7000,
+            "duration": "More than 6 months",
+            "__v": 0,
+            "clientId": "609c8a67759ef16a64e5fe6d",
+            "id": "608eb6b474d4911a50e96129"
+        },
+        "user": {
+            "rating": 1.4,
+            "_id": "609c5048c6393d1f08471138",
+            "firstName": "Ahmed",
+            "lastName": "Ali",
+            "id": "609c5048c6393d1f08471138"
+        },
+        "__v": 0,
+        "id": "60a01628dda9a216284cb13a"
     }
 ]
