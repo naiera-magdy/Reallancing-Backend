@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const idValidator = require('mongoose-id-validator');
 
 const freelancerSchema = new mongoose.Schema({
   title: {
@@ -84,6 +85,11 @@ const freelancerSchema = new mongoose.Schema({
     ref: 'User',
     required: [true, `The Freelancer's user info has to be specifed`]
   }
+});
+
+// Plugin to check if referenced ids exist
+freelancerSchema.plugin(idValidator, {
+  message: 'Bad ID value for {PATH}'
 });
 
 const Freelancer = mongoose.model('Freelancer', freelancerSchema);

@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const idValidator = require('mongoose-id-validator');
 
 const proposalSchema = new mongoose.Schema(
   {
@@ -34,6 +35,11 @@ const proposalSchema = new mongoose.Schema(
     toObject: { virtuals: true }
   }
 );
+
+// Plugin to check if referenced ids exist
+proposalSchema.plugin(idValidator, {
+  message: 'Bad ID value for {PATH}'
+});
 
 proposalSchema.pre('save', async function(next) {
   this.createdAt = Date();

@@ -4,6 +4,7 @@ const Job = require('./../models/jobModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
 const factory = require('./handlerFactory');
+const uploadAWSImage = require('../utils/uploadAWSImage');
 
 const filterObj = (obj, ...allowedFields) => {
   const newObj = {};
@@ -93,5 +94,39 @@ exports.getMyJobs = catchAsync(async (req, res, next) => {
   res.status(200).json({
     status: 'success',
     data: jobs
+  });
+});
+
+const updateAvatar = async (fileData, userId) => {
+  if (!fileData) throw new AppError('Invalid file uploaded', 400);
+
+  const dimensions = [
+    [640, 640],
+    [300, 300],
+    [60, 60]
+  ];
+  const qualityNames = ['High', 'Medium', 'Low'];
+  const imgObjects = await uploadAWSImage(
+    fileData,
+    'user',
+    userId,
+    dimensions,
+    qualityNames
+  );
+
+  const body = {
+    image: imgObjects
+  };
+
+  await User.findByIdAndUpdate(userId, body, {
+    new: true
+  });
+};
+
+exports.updateAvatar = catchAsync(async (req, res, next) => {
+  await updateAvatar(req.files.image.data, req.user.id);
+  res.status(202).json({
+    status: 'success',
+    message: 'Avatar image updated successfully'
   });
 });

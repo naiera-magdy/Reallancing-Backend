@@ -2,6 +2,7 @@ const crypto = require('crypto');
 const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
+const ImageObject = require('./objects/imageObject');
 
 //-------------------------------------------------------------------------
 // USER SCHEMA
@@ -59,6 +60,10 @@ const userSchema = new mongoose.Schema(
     location: {
       type: String,
       required: [true, 'Please provide a location']
+    },
+    image: {
+      type: [ImageObject],
+      default: null
     },
     passwordChangedAt: Date,
     passwordResetToken: String,

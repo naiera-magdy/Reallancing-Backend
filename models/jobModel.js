@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 // const validator = require('validator');
+const idValidator = require('mongoose-id-validator');
 
 const jobSchema = new mongoose.Schema(
   {
@@ -79,6 +80,11 @@ const jobSchema = new mongoose.Schema(
     toObject: { virtuals: true }
   }
 );
+
+// Plugin to check if referenced ids exist
+jobSchema.plugin(idValidator, {
+  message: 'Bad ID value for {PATH}'
+});
 
 jobSchema.pre('save', async function(next) {
   this.createdAt = Date();
