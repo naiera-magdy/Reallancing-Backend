@@ -130,3 +130,49 @@ exports.updateAvatar = catchAsync(async (req, res, next) => {
     message: 'Avatar image updated successfully'
   });
 });
+
+exports.getUserStats = catchAsync(async (req, res, next) => {
+  const stats = await User.aggregate([
+    {
+      $group: {
+        _id: '$type',
+        numUsers: { $sum: 1 },
+        avgRating: { $avg: '$rating' }
+      }
+    },
+    {
+      $sort: { avgRating: 1 }
+    }
+  ]);
+
+  res.status(200).json({
+    status: 'success',
+    data: {
+      stats
+    }
+  });
+});
+
+exports.getFreelancerStats = catchAsync(async (req, res, next) => {
+  const stats = await Freelancer.aggregate([
+    {
+      $group: {
+        _id: '$experienceLevel',
+        numFreelancers: { $sum: 1 },
+        avgHourlyRate: { $avg: '$hourlyRate' },
+        minHourlyRate: { $min: '$hourlyRate' },
+        maxHourlyRate: { $max: '$hourlyRate' }
+      }
+    },
+    {
+      $sort: { avgHourlyRate: 1 }
+    }
+  ]);
+
+  res.status(200).json({
+    status: 'success',
+    data: {
+      stats
+    }
+  });
+});

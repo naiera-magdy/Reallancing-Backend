@@ -19,6 +19,8 @@ router
   )
   .get(jobController.getAllJobs);
 
+router.route('/job-stats').get(jobController.getJobStats); // Should be restricted to admin
+
 router
   .route('/:id')
   .get(jobController.getJob)

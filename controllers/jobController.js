@@ -48,3 +48,23 @@ exports.deleteJob = catchAsync(async (req, res, next) => {
     data: null
   });
 });
+
+exports.getJobStats = catchAsync(async (req, res, next) => {
+  const stats = await Job.aggregate([
+    {
+      $group: {
+        _id: { duration: '$duration', experience: '$experience' },
+        numJobs: { $sum: 1 },
+        avgMinHourlyRate: { $avg: '$minHourlyRate' },
+        avgMaxHourlyRate: { $avg: '$maxHourlyRate' }
+      }
+    }
+  ]);
+
+  res.status(200).json({
+    status: 'success',
+    data: {
+      stats
+    }
+  });
+});
