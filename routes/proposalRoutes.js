@@ -16,6 +16,8 @@ router
     proposalController.createProposal
   );
 
+router.route('/monthly-plan/:year').get(proposalController.getMonthlyPlan);
+
 router
   .route('/:id')
   .get(proposalController.getProposal)

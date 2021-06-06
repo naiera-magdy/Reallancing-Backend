@@ -20,6 +20,7 @@ router
   .get(jobController.getAllJobs);
 
 router.route('/job-stats').get(jobController.getJobStats); // Should be restricted to admin
+router.route('/monthly-plan/:year').get(jobController.getMonthlyPlan);
 
 router
   .route('/:id')

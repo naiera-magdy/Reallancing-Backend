@@ -26,8 +26,8 @@ const freelancerSchema = new mongoose.Schema({
     },
     garduationYear: {
       type: Number,
-      min: [1950, "Date can't be before 1950"],
-      max: [new Date().getFullYear(), "Date Can't exceed current year"]
+      min: [1950, "Grad Date can't be before 1950"],
+      max: [2030, "Grad Date can't be after 2030"]
       //required: [true, 'Freelancer must have an experience level']
     },
     required: [true, 'Freelancer must have an education']

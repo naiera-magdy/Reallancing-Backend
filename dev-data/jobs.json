@@ -84,5 +84,23 @@
         "duration": "1 to 3 months",
         "clientId": "609c8a67759ef16a64e5fe6d",
         "id": "609f0c4927ec594fe88d7907"
+    },
+    {
+        "skills": [
+            "Unreal Engine",
+            "Game Development",
+            "Autodesk Maya"
+        ],
+        "_id": "609f0d3771507f08887d4553",
+        "createdAt": "2021-05-14T23:52:23.585Z",
+        "headline": "Vue.js Developer for university portal",
+        "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
+        "category": "Web Development",
+        "experience": "Expert",
+        "minHourlyRate": 215,
+        "maxHourlyRate": 3453,
+        "duration": "1 to 3 months",
+        "clientId": "609c8a67759ef16a64e5fe6d",
+        "id": "609f0d3771507f08887d4553"
     }
 ]
