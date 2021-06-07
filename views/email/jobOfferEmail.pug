@@ -1,0 +1,17 @@
+extends baseEmail
+
+block content
+  p Hi #{firstName},
+  p Congratulations 🎉🎉🎉
+  p Your proposal for the job  '#{jobName}'  has been accepted. 
+  P You can now connect with the client using this email #{clientEmail} to discuss further the job details. 
+  table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+    tbody
+      tr
+        td(align='left')
+          table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+            tbody
+              tr
+                td
+  p If you encounter any problems, please don't hesitate to contact me!
+  p - Omar Salama, CEO

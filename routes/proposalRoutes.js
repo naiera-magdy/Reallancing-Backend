@@ -16,6 +16,10 @@ router
     proposalController.createProposal
   );
 
+router
+  .route('/:id/sendProposalAcceptance')
+  .post(proposalController.sendProposalAcceptance);
+
 router.route('/monthly-plan/:year').get(proposalController.getMonthlyPlan);
 
 router
