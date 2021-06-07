@@ -3,14 +3,22 @@ const authController = require('../controllers/authController');
 const skillController = require('../controllers/skillController');
 
 const router = express.Router();
-router.use(authController.protectRoutes);
+// router.use(authController.protectRoutes);
 router
   .route('/')
   .get(skillController.getAllSkills)
-  .post(authController.restrictTo('admin'), skillController.createSkill);
+  .post(
+    authController.protectRoutes,
+    authController.restrictTo('admin'),
+    skillController.createSkill
+  );
 
 router
   .route('/:id')
   .get(skillController.getCategorySkills)
-  .delete(authController.restrictTo('admin'), skillController.deleteSkill);
+  .delete(
+    authController.protectRoutes,
+    authController.restrictTo('admin'),
+    skillController.deleteSkill
+  );
 module.exports = router;
