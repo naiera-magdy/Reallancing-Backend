@@ -23,7 +23,7 @@ const proposalSchema = new mongoose.Schema(
     proposedHourlyRate: {
       type: Number,
       min: [10, 'Hourly Rate min value is 10 LE'],
-      max: [2000, 'Hourly Rate max value is 2000 LE']
+      max: [10000, 'Hourly Rate max value is 10000 LE']
     },
     createdAt: {
       type: Date,
