@@ -28,6 +28,10 @@ const proposalSchema = new mongoose.Schema(
     createdAt: {
       type: Date,
       default: Date()
+    },
+    status: {
+      type: String,
+      default: 'Pending'
     }
   },
   {

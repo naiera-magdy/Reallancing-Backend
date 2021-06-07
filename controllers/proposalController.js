@@ -1,6 +1,10 @@
 const Proposal = require('./../models/proposalModel');
 const factory = require('./handlerFactory');
 const catchAsync = require('./../utils/catchAsync');
+const AppError = require('../utils/appError');
+const Email = require('./../utils/email');
+const User = require('../models/userModel');
+const Job = require('../models/jobModel');
 
 const getProposals = async function(type, id, res) {
   if (type === 'admin') {
@@ -56,6 +60,35 @@ exports.getProposal = factory.getOne(Proposal);
 exports.updateProposal = factory.updateOne(Proposal);
 
 exports.deleteProposal = factory.deleteOne(Proposal);
+
+exports.sendProposalAcceptance = catchAsync(async (req, res, next) => {
+  const proposal = await Proposal.findById(req.params.id);
+  const user = await User.findById(proposal.user);
+  const job = await Job.findById(proposal.job);
+  const client = await User.findById(job.clientId);
+
+  if (!proposal) {
+    return next(new AppError(`No Proposal found with that ID`, 404));
+  }
+
+  // Send acceptance to user's email and set proposal status to accepted
+  try {
+    // in the constructor put emty url as we don't need one
+    await new Email(user, '').sendProposalAcceptance(job, client);
+    proposal.status = 'Accepted';
+    await proposal.save();
+
+    res.status(200).json({
+      status: 'success',
+      message: 'Email sent successfully!'
+    });
+  } catch (err) {
+    return next(
+      new AppError('There was an error sending the email. Try again later!'),
+      500
+    );
+  }
+});
 
 exports.getMonthlyPlan = async (req, res) => {
   try {

@@ -66,8 +66,7 @@ const jobSchema = new mongoose.Schema(
     clientId: {
       type: mongoose.Schema.Types.ObjectId,
       ref: 'User',
-      required: [true, 'Job must belong to a specific Client.'],
-      select: false
+      required: [true, 'Job must belong to a specific Client.']
     },
     createdAt: {
       type: Date,
