@@ -83,7 +83,6 @@ exports.sendProposalAcceptance = catchAsync(async (req, res, next) => {
       message: 'Email sent successfully!'
     });
   } catch (err) {
-    console.log(err);
     return next(
       new AppError('There was an error sending the email. Try again later!'),
       500
