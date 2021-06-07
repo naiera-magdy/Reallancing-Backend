@@ -62,7 +62,7 @@ exports.updateProposal = factory.updateOne(Proposal);
 exports.deleteProposal = factory.deleteOne(Proposal);
 
 exports.sendProposalAcceptance = catchAsync(async (req, res, next) => {
-  const proposal = await Proposal.findById(req.params.id);
+  const proposal = await Proposal.findById(req.params.proposalId);
   const user = await User.findById(proposal.user);
   const job = await Job.findById(proposal.job);
   const client = await User.findById(job.clientId);

@@ -11,8 +11,6 @@ router.use(authController.protectRoutes);
 
 router.get('/me', userController.getMe, userController.getUser);
 
-router.get('/:id', userController.getUser);
-
 router.route('/update-avatar').post(fileUpload(), userController.updateAvatar);
 
 router

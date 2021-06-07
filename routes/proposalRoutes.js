@@ -17,7 +17,7 @@ router
   );
 
 router
-  .route('/:id/sendProposalAcceptance')
+  .route('/:proposalId/sendProposalAcceptance')
   .post(proposalController.sendProposalAcceptance);
 
 router.route('/monthly-plan/:year').get(proposalController.getMonthlyPlan);

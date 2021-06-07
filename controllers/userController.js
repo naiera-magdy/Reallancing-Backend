@@ -87,7 +87,21 @@ exports.getAllUsers = factory.getAll(User);
 
 // Do NOT update passwords with this!
 exports.updateUser = factory.updateOne(User);
-exports.deleteUser = factory.deleteOne(User);
+
+exports.deleteUser = catchAsync(async (req, res, next) => {
+  const doc = await User.findByIdAndDelete(req.params.id);
+
+  if (!doc) {
+    return next(new AppError(`No User found with that ID`, 404));
+  }
+
+  await Freelancer.deleteOne({ userInfo: req.params.id });
+
+  res.status(204).json({
+    status: 'success',
+    data: null
+  });
+});
 
 exports.getMyJobs = catchAsync(async (req, res, next) => {
   const jobs = await Job.find({ clientId: req.user.id });

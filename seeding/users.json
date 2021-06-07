@@ -1,0 +1,153 @@
+[
+    {
+        "_id": "6093235333c3002a7cb09e76",
+        "rating": 3.8,
+        "firstName": "Ahmed",
+        "lastName": "Alsakka",
+        "email": "sakka99@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "freelancer",
+        "location": "Cairo"
+    },
+    {
+        "_id": "6092a3badbe28145603efc3d",
+        "rating": 2.4,
+        "firstName": "Ahmed",
+        "lastName": "Helmy",
+        "email": "ahmedali@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "freelancer",
+        "location": "Giza"
+    },
+    {
+        "_id": "60960f63e704bb2c7401fbb7",
+        "rating": 3.9,
+        "firstName": "Mona",
+        "lastName": "Zaki",
+        "email": "MonaZaki@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "freelancer",
+        "location": "Giza"
+    },
+    {
+        "_id": "6096b121a88c935060e80262",
+        "rating": 2.2,
+        "firstName": "Karim",
+        "lastName": "Abdelaziz",
+        "email": "kimoo20@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "freelancer",
+        "location": "Giza"
+    },
+    {
+        "_id": "6099e54555e86c2998a2d692",
+        "rating": 3.2,
+        "firstName": "Khaled",
+        "lastName": "Al-Nabawy",
+        "email": "khaled11@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "freelancer",
+        "location": "Cairo"
+    },
+    {
+        "_id": "6099ea8e264622427c09cf3b",
+        "rating": 1.8,
+        "firstName": "Yasmine",
+        "lastName": "Sabry",
+        "email": "yasso92@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "freelancer",
+        "location": "Dubai"
+    },
+    {
+        "_id": "6099ec39cc553b49dcb1d721",
+        "rating": 3.4,
+        "firstName": "Amir",
+        "lastName": "Karara",
+        "email": "amir80@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "freelancer",
+        "location": "Alexandria"
+
+    },
+    {
+        "_id": "6099ec55cc553b49dcb1d722",
+        "rating": 2.4,
+        "firstName": "Omar",
+        "lastName": "Salama",
+        "email": "osalama710@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "freelancer",
+        "location": "Giza"
+    },
+    {
+        "_id": "6099ed0a95174834cc6c8e00",
+        "rating": 4.4,
+        "firstName": "Hamo",
+        "lastName": "Bika",
+        "email": "hamo.bika.vip@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "freelancer",
+        "location": "Alexandria"
+    },
+    {
+        "_id": "6099edb2ba462564c01196ba",
+        "rating": 1.2,
+        "firstName": "Ashraf",
+        "lastName": "Ahmed",
+        "email": "ashraf33@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "client",
+        "location": "Cairo"
+    },
+    {
+        "_id": "609c4d318e609c6b88174040",
+        "rating": 1.4,
+        "firstName": "Sayed",
+        "lastName": "Ragab",
+        "email": "sayed22@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "client",
+        "location": "Giza"
+    },
+    {
+        "rating": 1.4,
+        "_id": "609c5048c6393d1f08471130",
+        "firstName": "Noha",
+        "lastName": "Ali",
+        "email": "nohaali@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "client",
+        "location": "Giza"
+    },
+    {
+        "rating": 1.4,
+        "_id": "609c5048c6303d1f08471138",
+        "firstName": "Mahmoud",
+        "lastName": "Khairy",
+        "email": "khairy26@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "client",
+        "location": "Giza"
+    },
+    {
+        "rating": 1.4,
+        "_id": "609c5048c6393d1f08401138",
+        "firstName": "Seif",
+        "lastName": "Sayed",
+        "email": "seif44@gmail.com",
+        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "type": "client",
+        "location": "Giza"
+    },
+    {
+        "_id":"60bbc66bfffe4f7f3cab2f1b",
+        "rating":4.4,
+        "firstName":"admin",
+        "lastName":"admin",
+        "email":"admin@gmail.com",
+        "password":"$2a$12$UrLmy5pG/PBquN9eDjAWcuTaDglHNzwhxpG2RK7PzPeOqri397Kmu",
+        "type":"admin",
+        "location":"Giza"
+    }
+]
