@@ -17,8 +17,8 @@ router
   .route('/me/jobs')
   .get(authController.restrictTo('client'), userController.getMyJobs);
 
-router.patch('/updateMe', userController.updateMe);
-router.delete('/deleteMe', userController.deleteMe);
+router.patch('/updateMe', userController.getMe, userController.updateUser);
+router.delete('/deleteMe', userController.getMe, userController.deleteUser);
 
 // router.use(authController.restrictTo('admin')); Commented for ease of testing
 
