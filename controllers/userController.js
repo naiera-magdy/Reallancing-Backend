@@ -3,7 +3,6 @@ const Freelancer = require('./../models/freelancerModel');
 const Job = require('./../models/jobModel');
 const catchAsync = require('./../utils/catchAsync');
 const AppError = require('./../utils/appError');
-const factory = require('./handlerFactory');
 const uploadAWSImage = require('../utils/uploadAWSImage');
 const Proposal = require('../models/proposalModel');
 
@@ -78,8 +77,18 @@ exports.getUser = catchAsync(async (req, res, next) => {
     data: doc
   });
 });
+
 // exports.getUserProposals = factory.getOne(User, { path: 'proposals' });
-exports.getAllUsers = factory.getAll(User);
+exports.getAllUsers = catchAsync(async (req, res, next) => {
+  const doc = await User.find();
+
+  // SEND RESPONSE
+  res.status(200).json({
+    status: 'success',
+    results: doc.length,
+    data: doc
+  });
+});
 
 exports.deleteUser = catchAsync(async (req, res, next) => {
   const doc = await User.findByIdAndDelete(req.params.id);
