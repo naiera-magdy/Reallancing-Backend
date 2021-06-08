@@ -8,9 +8,12 @@ const Proposal = require('./../models/proposalModel');
 const Skill = require('./../models/skillModel');
 const Category = require('./../models/categoryModel');
 
-dotenv.config({ path: './config.env' });
+dotenv.config({ path: '../config.env' });
 
-const DB = 'mongodb+srv://omar:omar@cluster0.9tnky.mongodb.net/test';
+const DB = process.env.DATABASE.replace(
+  '<PASSWORD>',
+  process.env.DATABASE_PASSWORD
+);
 
 mongoose
   .connect(DB, {

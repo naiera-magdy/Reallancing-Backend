@@ -300,5 +300,30 @@
             }
         ],
         "userInfo":"6099ed0a95174834cc6c8e00"
+    },
+    {
+        "_id":"60bf6b9f7db7f749085efd93",
+        "title": "Front-end Developer",
+        "overview": "Front-end Developer using React framework Front-end Developer using React framework",
+        "hourlyRate": 50,
+        "education": {
+            "university": "Cairo University",
+            "graduation": 2012
+        },
+        "workExperience": {
+            "company": "Bika's VIP",
+            "jobTitle": "Office Boy",
+            "durationInMonths": 2
+        } ,
+        "experienceLevel": "beginner",
+        "category": "ASIC",
+        "skills": ["VHDL", "Verilog"],
+        "languages": [
+            {
+                "name": "Arabic",
+                "level": "basic" 
+            }
+        ],
+        "userInfo":"60bf6b9f7db7f749085eed93"
     }
 ]

@@ -7,6 +7,7 @@
         "email": "sakka99@gmail.com",
         "password": "pass1234",
         "type": "freelancer",
+        "createdAt": "2021-03-08T13:20:44.000Z",
         "location": "Cairo"
     },
     {
@@ -17,6 +18,7 @@
         "email": "ahmedali@gmail.com",
         "password": "pass1234",
         "type": "freelancer",
+        "createdAt": "2021-02-08T13:20:44.000Z",
         "location": "Giza"
     },
     {
@@ -27,16 +29,18 @@
         "email": "MonaZaki@gmail.com",
         "password": "pass1234",
         "type": "freelancer",
+        "createdAt": "2021-05-08T13:20:44.000Z",
         "location": "Giza"
     },
     {
         "_id": "6096b121a88c935060e80262",
-        "rating": 2.2,
+        "rating": 4.1,
         "firstName": "Karim",
         "lastName": "Abdelaziz",
         "email": "kimoo20@gmail.com",
         "password": "pass1234",
         "type": "freelancer",
+        "createdAt": "2020-07-08T13:20:44.000Z",
         "location": "Giza"
     },
     {
@@ -47,6 +51,7 @@
         "email": "khaled11@gmail.com",
         "password": "pass1234",
         "type": "freelancer",
+        "createdAt": "2021-03-08T13:20:44.000Z",
         "location": "Cairo"
     },
     {
@@ -57,6 +62,7 @@
         "email": "yasso92@gmail.com",
         "password": "pass1234",
         "type": "freelancer",
+        "createdAt": "2021-05-08T13:20:44.000Z",
         "location": "Dubai"
     },
     {
@@ -67,8 +73,8 @@
         "email": "amir80@gmail.com",
         "password": "pass1234",
         "type": "freelancer",
+        "createdAt": "2021-02-08T13:20:44.000Z",
         "location": "Alexandria"
-
     },
     {
         "_id": "6099ec55cc553b49dcb1d722",
@@ -78,6 +84,7 @@
         "email": "osalama710@gmail.com",
         "password": "pass1234",
         "type": "freelancer",
+        "createdAt": "2021-02-08T13:20:44.000Z",
         "location": "Giza"
     },
     {
@@ -88,46 +95,51 @@
         "email": "hamo.bika.vip@gmail.com",
         "password": "pass1234",
         "type": "freelancer",
+        "createdAt": "2019-05-08T13:20:44.000Z",
         "location": "Alexandria"
     },
     {
         "_id": "6099edb2ba462564c01196ba",
-        "rating": 1.2,
+        "rating": 2.2,
         "firstName": "Ashraf",
         "lastName": "Ahmed",
         "email": "ashraf33@gmail.com",
         "password": "pass1234",
         "type": "client",
+        "createdAt": "2020-08-08T13:20:44.000Z",
         "location": "Cairo"
     },
     {
         "_id": "609c4d318e609c6b88174040",
-        "rating": 1.4,
+        "rating": 3.9,
         "firstName": "Sayed",
         "lastName": "Ragab",
         "email": "sayed22@gmail.com",
         "password": "pass1234",
         "type": "client",
+        "createdAt": "2019-08-08T13:20:44.000Z",
         "location": "Giza"
     },
     {
-        "rating": 1.4,
+        "rating": 2.7,
         "_id": "609c5048c6393d1f08471130",
         "firstName": "Noha",
         "lastName": "Ali",
         "email": "nohaali@gmail.com",
         "password": "pass1234",
         "type": "client",
+        "createdAt": "2019-09-19T13:20:44.000Z",
         "location": "Giza"
     },
     {
-        "rating": 1.4,
+        "rating": 3.4,
         "_id": "609c5048c6303d1f08471138",
         "firstName": "Mahmoud",
         "lastName": "Khairy",
         "email": "khairy26@gmail.com",
         "password": "pass1234",
         "type": "client",
+        "createdAt": "2020-09-19T13:20:44.000Z",
         "location": "Giza"
     },
     {
@@ -138,6 +150,7 @@
         "email": "seif44@gmail.com",
         "password": "pass1234",
         "type": "client",
+        "createdAt": "2021-02-11T13:20:44.000Z",
         "location": "Giza"
     },
     {
@@ -148,6 +161,7 @@
         "email":"admin@gmail.com",
         "password":"pass1234",
         "type":"admin",
+        "createdAt": "2021-03-18T15:20:44.000Z",
         "location":"Giza"
     },
     {
@@ -158,6 +172,51 @@
         "email":"mosalah@gmail.com",
         "password":"pass1234",
         "type":"freelancer",
+        "createdAt": "2020-07-10T13:20:44.000Z",
         "location":"Negreej"
+    },
+    {
+        "_id":"60bf6b9f7dbee749085eed93",
+        "rating":3.8,
+        "firstName":"Reese",
+        "lastName":"Witherspoon",
+        "email":"reese@gmail.com",
+        "password":"pass1234",
+        "type":"client",
+        "createdAt": "2020-10-10T13:20:44.000Z",
+        "location":"USA"
+    },
+    {
+        "_id":"60bf6b9f7dbae749085eed92",
+        "rating":4.9,
+        "firstName":"Dwayne",
+        "lastName":"Johanson",
+        "email":"therock@gmail.com",
+        "password":"pass1234",
+        "type":"client",
+        "createdAt": "2020-12-10T13:20:44.000Z",
+        "location":"USA"
+    },
+    {
+        "_id":"60ba6b9f7dbae749085eea92",
+        "rating":4.7,
+        "firstName":"Johnny",
+        "lastName":"Depp",
+        "email":"thehatter@gmail.com",
+        "password":"pass1234",
+        "type":"client",
+        "createdAt": "2019-08-11T13:20:44.000Z",
+        "location":"USA"
+    },
+    {
+        "_id":"60ba6b9f7bbae749085eea92",
+        "rating":4.7,
+        "firstName":"Emma",
+        "lastName":"Watson",
+        "email":"hermione@gmail.com",
+        "password":"pass1234",
+        "type":"client",
+        "createdAt": "2020-09-11T13:20:44.000Z",
+        "location":"USA"
     }
 ]

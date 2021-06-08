@@ -3,10 +3,10 @@
 		"name": "Java",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23b9"
+			"_id": "60bf9754cdea425afc9dd81d"
 			},
 			{
-			"_id": "60bf8cda8cc48037ccda23be"
+			"_id": "60bf9754cdea425afc9dd822"
 			}
 		]
 	},
@@ -14,7 +14,7 @@
 		"name": "Kotlin",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23b9"
+			"_id": "60bf9754cdea425afc9dd81d"
 			}
 		]
 	},
@@ -22,13 +22,13 @@
 		"name": "MVVM",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23b9"
+			"_id": "60bf9754cdea425afc9dd81d"
 			},
 			{
-			"_id": "60bf8cda8cc48037ccda23ba"
+			"_id": "60bf9754cdea425afc9dd81e"
 			},
 			{
-			"_id": "60bf8cda8cc48037ccda23bd"
+			"_id": "60bf9754cdea425afc9dd821"
 			}
 		]
 	},
@@ -36,10 +36,10 @@
 		"name": "MVC",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23b9"
+			"_id": "60bf9754cdea425afc9dd81d"
 			},
 			{
-			"_id": "60bf8cda8cc48037ccda23bd"
+			"_id": "60bf9754cdea425afc9dd821"
 			}
 		]
 	},
@@ -47,7 +47,7 @@
 		"name": "Android SDK",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23b9"
+			"_id": "60bf9754cdea425afc9dd81d"
 			}
 		]
 	},
@@ -55,7 +55,7 @@
 		"name": "Material Design",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23b9"
+			"_id": "60bf9754cdea425afc9dd81d"
 			}
 		]
 	},
@@ -63,10 +63,10 @@
 		"name": "Javascript",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23ba"
+			"_id": "60bf9754cdea425afc9dd81e"
 			},
 			{
-			"_id": "60bf8cda8cc48037ccda23be"
+			"_id": "60bf9754cdea425afc9dd822"
 			}
 		]
 	},
@@ -74,7 +74,7 @@
 		"name": "HTML",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23ba"
+			"_id": "60bf9754cdea425afc9dd81e"
 			}
 		]
 	},
@@ -82,7 +82,7 @@
 		"name": "CSS",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23ba"
+			"_id": "60bf9754cdea425afc9dd81e"
 			}
 		]
 	},
@@ -90,7 +90,7 @@
 		"name": "Vue.js",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23ba"
+			"_id": "60bf9754cdea425afc9dd81e"
 			}
 		]
 	},
@@ -98,7 +98,7 @@
 		"name": "React.js",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23ba"
+			"_id": "60bf9754cdea425afc9dd81e"
 			}
 		]
 	},
@@ -106,7 +106,7 @@
 		"name": "Angular.js",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23ba"
+			"_id": "60bf9754cdea425afc9dd81e"
 			}
 		]
 	},
@@ -114,7 +114,7 @@
 		"name": "Verilog",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bb"
+			"_id": "60bf9754cdea425afc9dd81f"
 			}
 		]
 	},
@@ -122,7 +122,7 @@
 		"name": "VHDL",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bb"
+			"_id": "60bf9754cdea425afc9dd81f"
 			}
 		]
 	},
@@ -130,7 +130,7 @@
 		"name": "System Verilog",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bb"
+			"_id": "60bf9754cdea425afc9dd81f"
 			}
 		]
 	},
@@ -138,7 +138,7 @@
 		"name": "C#",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bc"
+			"_id": "60bf9754cdea425afc9dd820"
 			}
 		]
 	},
@@ -146,7 +146,7 @@
 		"name": "Xamarin",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bc"
+			"_id": "60bf9754cdea425afc9dd820"
 			}
 		]
 	},
@@ -154,7 +154,7 @@
 		"name": "Windows Forms",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bc"
+			"_id": "60bf9754cdea425afc9dd820"
 			}
 		]
 	},
@@ -162,7 +162,7 @@
 		"name": "Swift",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bd"
+			"_id": "60bf9754cdea425afc9dd821"
 			}
 		]
 	},
@@ -170,7 +170,7 @@
 		"name": "Objective-C",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bd"
+			"_id": "60bf9754cdea425afc9dd821"
 			}
 		]
 	},
@@ -178,7 +178,7 @@
 		"name": "SwiftUI",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bd"
+			"_id": "60bf9754cdea425afc9dd821"
 			}
 		]
 	},
@@ -186,7 +186,7 @@
 		"name": "Core ML",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bd"
+			"_id": "60bf9754cdea425afc9dd821"
 			}
 		]
 	},
@@ -194,7 +194,7 @@
 		"name": "Core Data",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23bd"
+			"_id": "60bf9754cdea425afc9dd821"
 			}
 		]
 	},
@@ -202,7 +202,7 @@
 		"name": "Node",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23be"
+			"_id": "60bf9754cdea425afc9dd822"
 			}
 		]
 	},
@@ -210,7 +210,7 @@
 		"name": "Php",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23be"
+			"_id": "60bf9754cdea425afc9dd822"
 			}
 		]
 	},
@@ -218,7 +218,7 @@
 		"name": "Ruby on rails",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23be"
+			"_id": "60bf9754cdea425afc9dd822"
 			}
 		]
 	},
@@ -226,7 +226,7 @@
 		"name": "Python",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23be"
+			"_id": "60bf9754cdea425afc9dd822"
 			}
 		]
 	},
@@ -234,7 +234,7 @@
 		"name": "Flask",
 		"categories": [
 			{
-			"_id": "60bf8cda8cc48037ccda23be"
+			"_id": "60bf9754cdea425afc9dd822"
 			}
 		]
 	}
