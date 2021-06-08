@@ -18,9 +18,14 @@ router
 
 router
   .route('/:proposalId/sendProposalAcceptance')
-  .post(proposalController.sendProposalAcceptance);
+  .post(
+    authController.restrictTo('client'),
+    proposalController.sendProposalAcceptance
+  );
 
-router.route('/monthly-plan').get(proposalController.getMonthlyPlan);
+router
+  .route('/monthly-plan')
+  .get(authController.restrictTo('admin'), proposalController.getMonthlyPlan);
 
 router
   .route('/:id')

@@ -20,11 +20,15 @@ router
 router.patch('/updateMe', userController.getMe, userController.updateUser);
 router.delete('/deleteMe', userController.getMe, userController.deleteUser);
 
-// router.use(authController.restrictTo('admin')); Commented for ease of testing
-
-router.route('/user-stats').get(userController.getUserStats);
-router.route('/freelancer-stats').get(userController.getFreelancerStats);
-router.route('/monthly-plan').get(userController.getMonthlyPlan);
+router
+  .route('/user-stats')
+  .get(authController.restrictTo('admin'), userController.getUserStats);
+router
+  .route('/freelancer-stats')
+  .get(authController.restrictTo('admin'), userController.getFreelancerStats);
+router
+  .route('/monthly-plan')
+  .get(authController.restrictTo('admin'), userController.getMonthlyPlan);
 
 router
   .route('/')
@@ -35,6 +39,6 @@ router
   .route('/:id')
   .get(userController.getUser)
   .patch(userController.updateUser)
-  .delete(userController.deleteUser);
+  .delete(authController.restrictTo('admin'), userController.deleteUser);
 
 module.exports = router;

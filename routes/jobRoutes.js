@@ -19,8 +19,12 @@ router
   )
   .get(jobController.getAllJobs);
 
-router.route('/job-stats').get(jobController.getJobStats); // Should be restricted to admin
-router.route('/monthly-plan').get(jobController.getMonthlyPlan);
+router
+  .route('/job-stats')
+  .get(authController.restrictTo('admin'), jobController.getJobStats); // Should be restricted to admin
+router
+  .route('/monthly-plan')
+  .get(authController.restrictTo('admin'), jobController.getMonthlyPlan);
 
 router
   .route('/:id')
