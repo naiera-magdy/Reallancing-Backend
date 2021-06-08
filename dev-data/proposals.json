@@ -1,194 +1,702 @@
 [
-    {
-        "_id": "609c89e3759ef16a64e5fe6c",
-        "coverLetter": "Hello My dears, i am applying for your job. Please take me",
-        "proposedHourlyRate": 20,
-        "job": {
-            "skills": [
-                "Unreal Engine",
-                "Game Development",
-                "Autodesk Maya"
-            ],
-            "_id": "608eb6b474d4911a50e96129",
-            "headline": "Game developer​/3d unity designer",
-            "description": "I have a game in the ​unreal engine and I need few modifications the game is complete but it is for PC.    it is a survival game, I want to modify it and I want to add a voice-over IP, registration system, and master server. All front end, do you have experience in such a project? also looking for 3d object designer and character designs. It is low poly and I can provide an example",
-            "category": "IT & Networking",
-            "experience": "Intermediate",
-            "minHourlyRate": 200,
-            "maxHourlyRate": 7000,
-            "duration": "More than 6 months",
-            "__v": 0,
-            "clientId": "609c8a67759ef16a64e5fe6d",
-            "id": "608eb6b474d4911a50e96129"
-        },
-        "user": {
-            "rating": 1.4,
-            "_id": "609c5048c6393d1f08471138",
-            "firstName": "Ahmed",
-            "lastName": "Ali",
-            "id": "609c5048c6393d1f08471138"
-        },
-        "__v": 0,
-        "id": "609c89e3759ef16a64e5fe6c"
-    },
-    {
-        "_id": "609d3ab203d5273c6469d718",
-        "coverLetter": "Hi there,\n\nI just read your posting. It sounds like you need an expert in cold emails to advise you on everything from the content to the overall strategy.\n\nI have a background in email marketing and have been doing this for 3 years. Cold emailing in B2B is what I specialize in.\n\nI can work with you to write the content and subject lines, recommend the best technologies for you to use, and more. Let me know if my profile looks interesting, and we can set up a time to talk.\n\nBest regards,",
-        "job": {
-            "skills": [
-                "Unreal Engine",
-                "Game Development",
-                "Autodesk Maya"
-            ],
-            "_id": "608eb6b474d4911a50e96129",
-            "headline": "Game developer​/3d unity designer",
-            "description": "I have a game in the ​unreal engine and I need few modifications the game is complete but it is for PC.    it is a survival game, I want to modify it and I want to add a voice-over IP, registration system, and master server. All front end, do you have experience in such a project? also looking for 3d object designer and character designs. It is low poly and I can provide an example",
-            "category": "IT & Networking",
-            "experience": "Intermediate",
-            "minHourlyRate": 200,
-            "maxHourlyRate": 7000,
-            "duration": "More than 6 months",
-            "__v": 0,
-            "clientId": "609c8a67759ef16a64e5fe6d",
-            "id": "608eb6b474d4911a50e96129"
-        },
-        "user": {
-            "rating": 1.4,
-            "_id": "609c5048c6393d1f08471138",
-            "firstName": "Ahmed",
-            "lastName": "Ali",
-            "id": "609c5048c6393d1f08471138"
-        },
-        "__v": 0,
-        "id": "609d3ab203d5273c6469d718"
-    },
-    {
-        "_id": "609f0f8abfa17e1e2876125c",
-        "createdAt": "2021-05-14T23:58:58.000Z",
-        "job": {
-            "skills": [
-                "Unreal Engine",
-                "Game Development",
-                "Autodesk Maya"
-            ],
-            "_id": "608eb6b474d4911a50e96129",
-            "headline": "Game developer​/3d unity designer",
-            "description": "I have a game in the ​unreal engine and I need few modifications the game is complete but it is for PC.    it is a survival game, I want to modify it and I want to add a voice-over IP, registration system, and master server. All front end, do you have experience in such a project? also looking for 3d object designer and character designs. It is low poly and I can provide an example",
-            "category": "IT & Networking",
-            "experience": "Intermediate",
-            "minHourlyRate": 200,
-            "maxHourlyRate": 7000,
-            "duration": "More than 6 months",
-            "__v": 0,
-            "clientId": "609c8a67759ef16a64e5fe6d",
-            "id": "608eb6b474d4911a50e96129"
-        },
-        "coverLetter": "I'm an amazing Developer, and I'm really experienced in Game Development.",
-        "proposedHourlyRate": 700,
-        "user": {
-            "rating": 1.4,
-            "_id": "609c5048c6393d1f08471138",
-            "firstName": "Ahmed",
-            "lastName": "Ali",
-            "id": "609c5048c6393d1f08471138"
-        },
-        "__v": 0,
-        "id": "609f0f8abfa17e1e2876125c"
-    },
-    {
-        "_id": "609f10abbfa17e1e2876125e",
-        "createdAt": "2021-05-14T23:58:58.000Z",
-        "job": null,
-        "coverLetter": "I'm an amazing Developer, and I'm really experienced in Game Development.",
-        "proposedHourlyRate": 700,
-        "user": {
-            "rating": 1.4,
-            "_id": "609c5048c6393d1f08471138",
-            "firstName": "Ahmed",
-            "lastName": "Ali",
-            "id": "609c5048c6393d1f08471138"
-        },
-        "__v": 0,
-        "id": "609f10abbfa17e1e2876125e"
-    },
-    {
-        "_id": "60a00d8fdda9a216284cb137",
-        "createdAt": "2021-05-15T18:06:07.000Z",
-        "coverLetter": "testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest",
-        "job": null,
-        "user": {
-            "rating": 1.4,
-            "_id": "609c5048c6393d1f08471138",
-            "firstName": "Ahmed",
-            "lastName": "Ali",
-            "id": "609c5048c6393d1f08471138"
-        },
-        "__v": 0,
-        "id": "60a00d8fdda9a216284cb137"
-    },
-    {
-        "_id": "60a011bddda9a216284cb138",
-        "createdAt": "2021-05-15T18:23:57.000Z",
-        "coverLetter": "asdnsakn dlkasndlksand lknaslkn dlaskndl knsalkdn klasnd lknasld",
-        "job": {
-            "skills": [
-                "Unreal Engine",
-                "Game Development",
-                "Autodesk Maya"
-            ],
-            "_id": "609f0d3771507f08887d4553",
-            "createdAt": "2021-05-14T23:52:23.585Z",
-            "headline": "Vue.js Developer for university portal",
-            "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
-            "category": "Web Development",
-            "experience": "Expert",
-            "minHourlyRate": 215,
-            "maxHourlyRate": 3453,
-            "duration": "1 to 3 months",
-            "clientId": "609c8a67759ef16a64e5fe6d",
-            "__v": 0,
-            "id": "609f0d3771507f08887d4553"
-        },
-        "user": {
-            "rating": 1.4,
-            "_id": "609c5048c6393d1f08471138",
-            "firstName": "Ahmed",
-            "lastName": "Ali",
-            "id": "609c5048c6393d1f08471138"
-        },
-        "__v": 0,
-        "id": "60a011bddda9a216284cb138"
-    },
-    {
-        "_id": "60a01628dda9a216284cb13a",
-        "createdAt": "2021-05-15T18:42:48.000Z",
-        "coverLetter": "eskfnlasknflnasklfn asn fknaslkfnaslknflknsalk fasln lkasn lknasl",
-        "job": {
-            "skills": [
-                "Unreal Engine",
-                "Game Development",
-                "Autodesk Maya"
-            ],
-            "_id": "608eb6b474d4911a50e96129",
-            "headline": "Game developer​/3d unity designer",
-            "description": "I have a game in the ​unreal engine and I need few modifications the game is complete but it is for PC.    it is a survival game, I want to modify it and I want to add a voice-over IP, registration system, and master server. All front end, do you have experience in such a project? also looking for 3d object designer and character designs. It is low poly and I can provide an example",
-            "category": "IT & Networking",
-            "experience": "Intermediate",
-            "minHourlyRate": 200,
-            "maxHourlyRate": 7000,
-            "duration": "More than 6 months",
-            "__v": 0,
-            "clientId": "609c8a67759ef16a64e5fe6d",
-            "id": "608eb6b474d4911a50e96129"
-        },
-        "user": {
-            "rating": 1.4,
-            "_id": "609c5048c6393d1f08471138",
-            "firstName": "Ahmed",
-            "lastName": "Ali",
-            "id": "609c5048c6393d1f08471138"
-        },
-        "__v": 0,
-        "id": "60a01628dda9a216284cb13a"
-    }
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3d9c",
+		"coverLetter": "Hi, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Cheers.",
+		"proposedHourlyRate": 55,
+		"createdAt": "2019-08-19T21:28:29.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3dde",
+		"coverLetter": "Howdy, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Cheers.",
+		"proposedHourlyRate": 28,
+		"createdAt": "2020-08-28T19:25:41.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3d9b",
+		"coverLetter": "Howdy, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 147,
+		"createdAt": "2019-09-08T07:46:30.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3d9e",
+		"coverLetter": "Hey there, I would really love to work on this project. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 20,
+		"createdAt": "2020-02-18T14:37:08.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3d95",
+		"coverLetter": "Howdy, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 31,
+		"createdAt": "2020-02-05T11:07:24.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3da1",
+		"coverLetter": "Hi, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Thank you for your consideration.",
+		"proposedHourlyRate": 77,
+		"createdAt": "2019-09-18T10:24:28.699Z"
+	},
+	{
+		"user": "6099ea8e264622427c09cf3b",
+		"job": "60bf75107d05e359747e3dbb",
+		"coverLetter": "Howdy, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 23,
+		"createdAt": "2019-07-13T11:16:24.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3dc0",
+		"coverLetter": "Hi, This project is extremely appealing to me. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Cheers.",
+		"proposedHourlyRate": 70,
+		"createdAt": "2019-07-16T18:24:28.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3db0",
+		"coverLetter": "Hey there, I would really love to work on this project. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Cheers.",
+		"proposedHourlyRate": 52,
+		"createdAt": "2020-04-22T07:45:18.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3da1",
+		"coverLetter": "Hello, This project is extremely appealing to me. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Best regards.",
+		"proposedHourlyRate": 51,
+		"createdAt": "2019-09-18T10:24:28.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3da2",
+		"coverLetter": "Hey there, This project is extremely appealing to me. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Sincerely.",
+		"proposedHourlyRate": 44,
+		"createdAt": "2020-03-15T05:31:22.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3dac",
+		"coverLetter": "Hi, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 109,
+		"createdAt": "2019-08-04T08:05:11.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3dbe",
+		"coverLetter": "Hi, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 35,
+		"createdAt": "2020-12-19T03:25:18.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3dc8",
+		"coverLetter": "Howdy, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 50,
+		"createdAt": "2019-12-03T13:56:56.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3daf",
+		"coverLetter": "Hey there, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Cheers.",
+		"proposedHourlyRate": 42,
+		"createdAt": "2019-10-20T02:04:15.699Z"
+	},
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3dc0",
+		"coverLetter": "Howdy, I would really love to work on this project. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Thank you for your consideration.",
+		"proposedHourlyRate": 60,
+		"createdAt": "2019-07-16T18:24:28.699Z"
+	},
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3db8",
+		"coverLetter": "Howdy, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 85,
+		"createdAt": "2020-11-25T14:45:30.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3da7",
+		"coverLetter": "Hey there, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Cheers.",
+		"proposedHourlyRate": 117,
+		"createdAt": "2020-04-06T11:18:20.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3d95",
+		"coverLetter": "Hi, I would really love to work on this project. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Cheers.",
+		"proposedHourlyRate": 25,
+		"createdAt": "2020-02-05T11:07:24.699Z"
+	},
+	{
+		"user": "6099ea8e264622427c09cf3b",
+		"job": "60bf75107d05e359747e3dc4",
+		"coverLetter": "Howdy, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Cheers.",
+		"proposedHourlyRate": 28,
+		"createdAt": "2020-10-31T18:08:38.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3db2",
+		"coverLetter": "Hi, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Cheers.",
+		"proposedHourlyRate": 26,
+		"createdAt": "2020-05-30T08:23:45.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3dcd",
+		"coverLetter": "Howdy, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 24,
+		"createdAt": "2020-06-23T04:29:06.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3dab",
+		"coverLetter": "Hi, I would really love to work on this project. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Best regards.",
+		"proposedHourlyRate": 109,
+		"createdAt": "2020-05-07T07:27:19.699Z"
+	},
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3d99",
+		"coverLetter": "Hi, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 137,
+		"createdAt": "2020-10-06T18:06:35.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3ddf",
+		"coverLetter": "Hello, This project is extremely appealing to me. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Sincerely.",
+		"proposedHourlyRate": 68,
+		"createdAt": "2020-01-21T12:53:47.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3de2",
+		"coverLetter": "Hey there, This project is extremely appealing to me. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Cheers.",
+		"proposedHourlyRate": 119,
+		"createdAt": "2020-08-18T12:09:09.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3da3",
+		"coverLetter": "Hey there, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 59,
+		"createdAt": "2020-06-19T21:29:56.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3dbd",
+		"coverLetter": "Hello, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Cheers.",
+		"proposedHourlyRate": 28,
+		"createdAt": "2020-04-19T00:20:15.699Z"
+	},
+	{
+		"user": "6099ed0a95174834cc6c8e00",
+		"job": "60bf75107d05e359747e3d99",
+		"coverLetter": "Hello, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 156,
+		"createdAt": "2020-10-06T18:06:35.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3db9",
+		"coverLetter": "Howdy, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Sincerely.",
+		"proposedHourlyRate": 130,
+		"createdAt": "2019-12-30T22:29:08.699Z"
+	},
+	{
+		"user": "6096b121a88c935060e80262",
+		"job": "60bf75107d05e359747e3dc7",
+		"coverLetter": "Hi, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Best regards.",
+		"proposedHourlyRate": 32,
+		"createdAt": "2020-01-04T20:06:25.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3de1",
+		"coverLetter": "Hi, I would really love to work on this project. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Sincerely.",
+		"proposedHourlyRate": 35,
+		"createdAt": "2020-09-25T16:01:32.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3dbe",
+		"coverLetter": "Hello, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Best regards.",
+		"proposedHourlyRate": 33,
+		"createdAt": "2020-12-19T03:25:18.699Z"
+	},
+	{
+		"user": "6099ea8e264622427c09cf3b",
+		"job": "60bf75107d05e359747e3dd4",
+		"coverLetter": "Hi, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 79,
+		"createdAt": "2019-12-01T12:15:37.699Z"
+	},
+	{
+		"user": "6099ea8e264622427c09cf3b",
+		"job": "60bf75107d05e359747e3daa",
+		"coverLetter": "Hi, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Best regards.",
+		"proposedHourlyRate": 34,
+		"createdAt": "2020-11-03T04:39:14.699Z"
+	},
+	{
+		"user": "6099ed0a95174834cc6c8e00",
+		"job": "60bf75107d05e359747e3da5",
+		"coverLetter": "Hello, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Thank you for your consideration.",
+		"proposedHourlyRate": 71,
+		"createdAt": "2020-11-10T06:17:38.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3dd0",
+		"coverLetter": "Howdy, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 42,
+		"createdAt": "2019-12-01T02:55:41.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3da3",
+		"coverLetter": "Hey there, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Best regards.",
+		"proposedHourlyRate": 61,
+		"createdAt": "2020-06-19T21:29:56.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3dc7",
+		"coverLetter": "Hi, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 20,
+		"createdAt": "2020-01-04T20:06:25.699Z"
+	},
+	{
+		"user": "6096b121a88c935060e80262",
+		"job": "60bf75107d05e359747e3d9e",
+		"coverLetter": "Hello, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 21,
+		"createdAt": "2020-02-18T14:37:08.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3db3",
+		"coverLetter": "Hi, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 80,
+		"createdAt": "2020-01-14T02:12:45.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3dae",
+		"coverLetter": "Hey there, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Cheers.",
+		"proposedHourlyRate": 73,
+		"createdAt": "2020-12-05T00:29:17.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3db8",
+		"coverLetter": "Hello, I would really love to work on this project. I would love the chance to further discuss the position and what skills I'd bring to the job. Cheers.",
+		"proposedHourlyRate": 99,
+		"createdAt": "2020-11-25T14:45:30.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3dd5",
+		"coverLetter": "Hey there, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Best regards.",
+		"proposedHourlyRate": 57,
+		"createdAt": "2020-12-17T22:30:59.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3dbd",
+		"coverLetter": "Hey there, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Best regards.",
+		"proposedHourlyRate": 32,
+		"createdAt": "2020-04-19T00:20:15.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3dd7",
+		"coverLetter": "Hi, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Thank you for your consideration.",
+		"proposedHourlyRate": 112,
+		"createdAt": "2021-01-09T22:01:59.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3db7",
+		"coverLetter": "Hello, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Best regards.",
+		"proposedHourlyRate": 128,
+		"createdAt": "2020-06-30T14:17:26.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3dab",
+		"coverLetter": "Hello, This project is extremely appealing to me. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Cheers.",
+		"proposedHourlyRate": 122,
+		"createdAt": "2020-05-07T07:27:19.699Z"
+	},
+	{
+		"user": "6096b121a88c935060e80262",
+		"job": "60bf75107d05e359747e3dc8",
+		"coverLetter": "Howdy, I would really love to work on this project. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Cheers.",
+		"proposedHourlyRate": 49,
+		"createdAt": "2019-12-03T13:56:56.699Z"
+	},
+	{
+		"user": "6099ed0a95174834cc6c8e00",
+		"job": "60bf75107d05e359747e3da9",
+		"coverLetter": "Hey there, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 77,
+		"createdAt": "2019-11-09T15:57:38.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3dbd",
+		"coverLetter": "Hey there, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Best regards.",
+		"proposedHourlyRate": 34,
+		"createdAt": "2020-04-19T00:20:15.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3de1",
+		"coverLetter": "Howdy, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 39,
+		"createdAt": "2020-09-25T16:01:32.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3dd2",
+		"coverLetter": "Hello, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Best regards.",
+		"proposedHourlyRate": 45,
+		"createdAt": "2020-09-12T12:56:23.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3da1",
+		"coverLetter": "Hi, I would really love to work on this project. I would love the chance to further discuss the position and what skills I'd bring to the job. Thank you for your consideration.",
+		"proposedHourlyRate": 54,
+		"createdAt": "2019-09-18T10:24:28.699Z"
+	},
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3dad",
+		"coverLetter": "Hi, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Cheers.",
+		"proposedHourlyRate": 64,
+		"createdAt": "2020-02-21T07:28:24.699Z"
+	},
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3d98",
+		"coverLetter": "Hi, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 61,
+		"createdAt": "2020-09-05T13:00:33.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3da4",
+		"coverLetter": "Hello, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Thank you for your consideration.",
+		"proposedHourlyRate": 40,
+		"createdAt": "2020-07-28T23:57:44.699Z"
+	},
+	{
+		"user": "6099ec55cc553b49dcb1d722",
+		"job": "60bf75107d05e359747e3da7",
+		"coverLetter": "Hello, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Best regards.",
+		"proposedHourlyRate": 85,
+		"createdAt": "2020-04-06T11:18:20.699Z"
+	},
+	{
+		"user": "6099ed0a95174834cc6c8e00",
+		"job": "60bf75107d05e359747e3da4",
+		"coverLetter": "Hi, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Cheers.",
+		"proposedHourlyRate": 20,
+		"createdAt": "2020-07-28T23:57:44.699Z"
+	},
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3dd4",
+		"coverLetter": "Howdy, I would really love to work on this project. I would love the chance to further discuss the position and what skills I'd bring to the job. Best regards.",
+		"proposedHourlyRate": 71,
+		"createdAt": "2019-12-01T12:15:37.699Z"
+	},
+	{
+		"user": "60bf6b9f7db7f749085eed93",
+		"job": "60bf75107d05e359747e3dbc",
+		"coverLetter": "Hi, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Best regards.",
+		"proposedHourlyRate": 61,
+		"createdAt": "2020-03-21T02:36:51.699Z"
+	},
+	{
+		"user": "6099ea8e264622427c09cf3b",
+		"job": "60bf75107d05e359747e3ddb",
+		"coverLetter": "Hey there, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Sincerely.",
+		"proposedHourlyRate": 62,
+		"createdAt": "2020-09-15T09:29:29.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3dcd",
+		"coverLetter": "Howdy, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 22,
+		"createdAt": "2020-06-23T04:29:06.699Z"
+	},
+	{
+		"user": "6099ec55cc553b49dcb1d722",
+		"job": "60bf75107d05e359747e3d9b",
+		"coverLetter": "Howdy, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Cheers.",
+		"proposedHourlyRate": 95,
+		"createdAt": "2019-09-08T07:46:30.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3db4",
+		"coverLetter": "Hello, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 34,
+		"createdAt": "2020-07-12T12:58:36.699Z"
+	},
+	{
+		"user": "6096b121a88c935060e80262",
+		"job": "60bf75107d05e359747e3dc6",
+		"coverLetter": "Hello, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Cheers.",
+		"proposedHourlyRate": 111,
+		"createdAt": "2020-03-22T19:38:58.699Z"
+	},
+	{
+		"user": "6099ec55cc553b49dcb1d722",
+		"job": "60bf75107d05e359747e3dbb",
+		"coverLetter": "Hello, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 32,
+		"createdAt": "2019-07-13T11:16:24.699Z"
+	},
+	{
+		"user": "6099ec55cc553b49dcb1d722",
+		"job": "60bf75107d05e359747e3d9e",
+		"coverLetter": "Hey there, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 40,
+		"createdAt": "2020-02-18T14:37:08.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3dba",
+		"coverLetter": "Hello, This project is extremely appealing to me. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Thank you for your consideration.",
+		"proposedHourlyRate": 21,
+		"createdAt": "2020-07-18T07:56:58.699Z"
+	},
+	{
+		"user": "6099ed0a95174834cc6c8e00",
+		"job": "60bf75107d05e359747e3db6",
+		"coverLetter": "Howdy, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 33,
+		"createdAt": "2019-07-19T06:13:02.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3db3",
+		"coverLetter": "Hello, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Thank you for your consideration.",
+		"proposedHourlyRate": 153,
+		"createdAt": "2020-01-14T02:12:45.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3db5",
+		"coverLetter": "Hi, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 39,
+		"createdAt": "2020-03-20T23:17:37.699Z"
+	},
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3dc5",
+		"coverLetter": "Hello, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Cheers.",
+		"proposedHourlyRate": 70,
+		"createdAt": "2020-02-27T05:41:08.699Z"
+	},
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3dd7",
+		"coverLetter": "Hello, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 89,
+		"createdAt": "2021-01-09T22:01:59.699Z"
+	},
+	{
+		"user": "6099ec55cc553b49dcb1d722",
+		"job": "60bf75107d05e359747e3da9",
+		"coverLetter": "Hi, I would really love to work on this project. I would love the chance to further discuss the position and what skills I'd bring to the job. Thank you for your consideration.",
+		"proposedHourlyRate": 80,
+		"createdAt": "2019-11-09T15:57:38.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3da5",
+		"coverLetter": "Hi, I would really love to work on this project. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 49,
+		"createdAt": "2020-11-10T06:17:38.699Z"
+	},
+	{
+		"user": "6099ec55cc553b49dcb1d722",
+		"job": "60bf75107d05e359747e3da9",
+		"coverLetter": "Hey there, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 77,
+		"createdAt": "2019-11-09T15:57:38.699Z"
+	},
+	{
+		"user": "6099ea8e264622427c09cf3b",
+		"job": "60bf75107d05e359747e3dc4",
+		"coverLetter": "Hi, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Best regards.",
+		"proposedHourlyRate": 30,
+		"createdAt": "2020-10-31T18:08:38.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3d95",
+		"coverLetter": "Howdy, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Thank you for your consideration.",
+		"proposedHourlyRate": 27,
+		"createdAt": "2020-02-05T11:07:24.699Z"
+	},
+	{
+		"user": "6099ea8e264622427c09cf3b",
+		"job": "60bf75107d05e359747e3dc5",
+		"coverLetter": "Hi, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 74,
+		"createdAt": "2020-02-27T05:41:08.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3da7",
+		"coverLetter": "Hi, This project is extremely appealing to me. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Thank you for your consideration.",
+		"proposedHourlyRate": 109,
+		"createdAt": "2020-04-06T11:18:20.699Z"
+	},
+	{
+		"user": "6096b121a88c935060e80262",
+		"job": "60bf75107d05e359747e3dab",
+		"coverLetter": "Hey there, I would really love to work on this project. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Best regards.",
+		"proposedHourlyRate": 85,
+		"createdAt": "2020-05-07T07:27:19.699Z"
+	},
+	{
+		"user": "6096b121a88c935060e80262",
+		"job": "60bf75107d05e359747e3dd8",
+		"coverLetter": "Hi, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 27,
+		"createdAt": "2020-05-09T08:20:40.699Z"
+	},
+	{
+		"user": "6099ec55cc553b49dcb1d722",
+		"job": "60bf75107d05e359747e3de1",
+		"coverLetter": "Howdy, This project is extremely appealing to me. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Sincerely.",
+		"proposedHourlyRate": 39,
+		"createdAt": "2020-09-25T16:01:32.699Z"
+	},
+	{
+		"user": "60960f63e704bb2c7401fbb7",
+		"job": "60bf75107d05e359747e3d94",
+		"coverLetter": "Hello, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Thank you for your consideration.",
+		"proposedHourlyRate": 86,
+		"createdAt": "2019-07-22T20:05:36.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3da8",
+		"coverLetter": "Hey there, I would really love to work on this project. I would love the chance to further discuss the position and what skills I'd bring to the job. Thank you for your consideration.",
+		"proposedHourlyRate": 42,
+		"createdAt": "2019-08-17T20:02:20.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3dd7",
+		"coverLetter": "Howdy, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Sincerely.",
+		"proposedHourlyRate": 102,
+		"createdAt": "2021-01-09T22:01:59.699Z"
+	},
+	{
+		"user": "6099ec39cc553b49dcb1d721",
+		"job": "60bf75107d05e359747e3d97",
+		"coverLetter": "Howdy, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 37,
+		"createdAt": "2019-12-30T05:59:39.699Z"
+	},
+	{
+		"user": "6099ea8e264622427c09cf3b",
+		"job": "60bf75107d05e359747e3dd8",
+		"coverLetter": "Hi, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Cheers.",
+		"proposedHourlyRate": 21,
+		"createdAt": "2020-05-09T08:20:40.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3db8",
+		"coverLetter": "Howdy, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Best regards.",
+		"proposedHourlyRate": 123,
+		"createdAt": "2020-11-25T14:45:30.699Z"
+	},
+	{
+		"user": "6099ed0a95174834cc6c8e00",
+		"job": "60bf75107d05e359747e3db5",
+		"coverLetter": "Hey there, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Cheers.",
+		"proposedHourlyRate": 28,
+		"createdAt": "2020-03-20T23:17:37.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3db9",
+		"coverLetter": "Howdy, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Best regards.",
+		"proposedHourlyRate": 123,
+		"createdAt": "2019-12-30T22:29:08.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3dce",
+		"coverLetter": "Hello, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 22,
+		"createdAt": "2020-04-12T10:24:53.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3ddc",
+		"coverLetter": "Hi, I would really love to work on this project. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Best regards.",
+		"proposedHourlyRate": 25,
+		"createdAt": "2019-11-30T03:15:36.699Z"
+	},
+	{
+		"user": "6092a3badbe28145603efc3d",
+		"job": "60bf75107d05e359747e3ddb",
+		"coverLetter": "Hello, This project is extremely appealing to me. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 42,
+		"createdAt": "2020-09-15T09:29:29.699Z"
+	},
+	{
+		"user": "6099ed0a95174834cc6c8e00",
+		"job": "60bf75107d05e359747e3daf",
+		"coverLetter": "Hello, I am extremely excited about this job. With my extensive accounts payable experience, I believe I can quickly get up to speed in this position. Sincerely.",
+		"proposedHourlyRate": 46,
+		"createdAt": "2019-10-20T02:04:15.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3dc1",
+		"coverLetter": "Hi, I am extremely excited about this job. I would love the chance to further discuss the position and what skills I'd bring to the job. Sincerely.",
+		"proposedHourlyRate": 123,
+		"createdAt": "2020-07-31T20:12:10.699Z"
+	},
+	{
+		"user": "6099e54555e86c2998a2d692",
+		"job": "60bf75107d05e359747e3dc9",
+		"coverLetter": "Hi, This project is extremely appealing to me. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Cheers.",
+		"proposedHourlyRate": 35,
+		"createdAt": "2020-01-19T02:28:51.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3dcf",
+		"coverLetter": "Hi, I am extremely excited about this job. Thank you for your time. I look forward to speaking with you about my in-depth experience and passion. Sincerely.",
+		"proposedHourlyRate": 109,
+		"createdAt": "2020-04-12T22:03:07.699Z"
+	},
+	{
+		"user": "6093235333c3002a7cb09e76",
+		"job": "60bf75107d05e359747e3dc9",
+		"coverLetter": "Howdy, I would really love to work on this project. I would love the chance to further discuss the position and what skills I'd bring to the job. Best regards.",
+		"proposedHourlyRate": 32,
+		"createdAt": "2020-01-19T02:28:51.699Z"
+	}
 ]

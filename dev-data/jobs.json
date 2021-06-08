@@ -1,106 +1,1485 @@
 [
-    {
-        "skills": [
-            "Unreal Engine",
-            "Game Development",
-            "Autodesk Maya"
-        ],
-        "_id": "609f0d3771507f08887d4553",
-        "createdAt": "2021-05-14T23:52:23.585Z",
-        "headline": "Vue.js Developer for university portal",
-        "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
-        "category": "Web Development",
-        "experience": "Expert",
-        "minHourlyRate": 215,
-        "maxHourlyRate": 3453,
-        "duration": "1 to 3 months",
-        "clientId": "609c8a67759ef16a64e5fe6d",
-        "id": "609f0d3771507f08887d4553"
-    },
-    {
-        "skills": [
-            "Unreal Engine",
-            "Game Development",
-            "Autodesk Maya"
-        ],
-        "_id": "608eb6b474d4911a50e96129",
-        "headline": "Game developer​/3d unity designer",
-        "description": "I have a game in the ​unreal engine and I need few modifications the game is complete but it is for PC.    it is a survival game, I want to modify it and I want to add a voice-over IP, registration system, and master server. All front end, do you have experience in such a project? also looking for 3d object designer and character designs. It is low poly and I can provide an example",
-        "category": "IT & Networking",
-        "experience": "Intermediate",
-        "minHourlyRate": 200,
-        "maxHourlyRate": 7000,
-        "duration": "More than 6 months",
-        "clientId": "609c8a67759ef16a64e5fe6d",
-        "id": "608eb6b474d4911a50e96129"
-    },
-    {
-        "skills": [
-            "Unreal Engine",
-            "Game Development",
-            "Autodesk Maya"
-        ],
-        "_id": "609c8da5b5fe0b6f700c2ceb",
-        "headline": "Vue.js Developer for complex global ecommerce components",
-        "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
-        "category": "Web Development",
-        "experience": "Expert",
-        "minHourlyRate": 215,
-        "maxHourlyRate": 3453,
-        "duration": "1 to 3 months",
-        "clientId": "609c8a67759ef16a64e5fe6d",
-        "id": "609c8da5b5fe0b6f700c2ceb"
-    },
-    {
-        "skills": [
-            "Laravel",
-            "MongoDB",
-            "PostgreSQL"
-        ],
-        "_id": "609c8e13b5fe0b6f700c2ced",
-        "headline": "Laravel/PHP Backend API Engineer",
-        "description": "The Laravel/PHP Engineer is responsible for managing the design and implementation of backend and full stack Laravel PHP applications. You will be the developer primarily responsible for the overall design, implementation putting your extensive and thorough knowledge of the framework to use to create cleanly coded, scalable, RESTful API backends for various projects and services.",
-        "category": "Web Development",
-        "experience": "Expert",
-        "minHourlyRate": 215,
-        "maxHourlyRate": 3453,
-        "duration": "1 to 3 months",
-        "clientId": "609c8a67759ef16a64e5fe6d",
-        "id": "609c8e13b5fe0b6f700c2ced"
-    },
-    {
-        "skills": [
-            "Unreal Engine",
-            "Game Development",
-            "Autodesk Maya"
-        ],
-        "_id": "609f0c4927ec594fe88d7907",
-        "headline": "Vue.js Developer for university portal",
-        "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
-        "category": "Web Development",
-        "experience": "Expert",
-        "minHourlyRate": 215,
-        "maxHourlyRate": 3453,
-        "duration": "1 to 3 months",
-        "clientId": "609c8a67759ef16a64e5fe6d",
-        "id": "609f0c4927ec594fe88d7907"
-    },
-    {
-        "skills": [
-            "Unreal Engine",
-            "Game Development",
-            "Autodesk Maya"
-        ],
-        "_id": "609f0d3771507f08887d4553",
-        "createdAt": "2021-05-14T23:52:23.585Z",
-        "headline": "Vue.js Developer for university portal",
-        "description": "We are looking for an expert Front End Developer who is highly skilled with Vue.js for an initial 1-2 month project. Your primary focus will be developing user-facing, reusable components for use within Vue Storefront. You’ll implement them with the Vue.js framework, following best practices and workflows. You will ensure that you produce robust, tested, secure, modular, and maintainable code.",
-        "category": "Web Development",
-        "experience": "Expert",
-        "minHourlyRate": 215,
-        "maxHourlyRate": 3453,
-        "duration": "1 to 3 months",
-        "clientId": "609c8a67759ef16a64e5fe6d",
-        "id": "609f0d3771507f08887d4553"
-    }
+	{
+		"skills": [
+			"MVVM",
+			"CSS",
+			"Vue.js"
+		],
+		"createdAt": "2019-07-22T20:05:36.699Z",
+		"_id": "60bf75107d05e359747e3d94",
+		"headline": "Senior Web developer for university portal",
+		"description": "We are looking for an Expert Web developer who is highly skilled with Vue.js for a More than 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "More than 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d94"
+	},
+	{
+		"skills": [
+			"MVC",
+			"Android SDK"
+		],
+		"createdAt": "2020-02-05T11:07:24.699Z",
+		"_id": "60bf75107d05e359747e3d95",
+		"headline": "Junior Android developer for a private project",
+		"description": "We are looking for an Entry level Android developer who is highly skilled with Kotlin for a 1 to 3 months project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d95"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"MVC",
+			"Android SDK"
+		],
+		"createdAt": "2020-04-12T08:58:50.699Z",
+		"_id": "60bf75107d05e359747e3d96",
+		"headline": "Senior Android developer for university portal",
+		"description": "We are looking for an Expert Android developer who is highly skilled with Kotlin for a Less than 1 month project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d96"
+	},
+	{
+		"skills": [
+			"Verilog",
+			"VHDL"
+		],
+		"createdAt": "2019-12-30T05:59:39.699Z",
+		"_id": "60bf75107d05e359747e3d97",
+		"headline": "Junior ASIC developer for a private project",
+		"description": "We are looking for an Entry level ASIC developer who is highly skilled with VHDL for a 1 to 3 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d97"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"MVC",
+			"SwiftUI"
+		],
+		"createdAt": "2020-09-05T13:00:33.699Z",
+		"_id": "60bf75107d05e359747e3d98",
+		"headline": "Mid Level iOS developer for university portal",
+		"description": "We are looking for an Intermediate iOS developer who is highly skilled with Core ML for a 1 to 3 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d98"
+	},
+	{
+		"skills": [
+			"Verilog",
+			"VHDL"
+		],
+		"createdAt": "2020-10-06T18:06:35.699Z",
+		"_id": "60bf75107d05e359747e3d99",
+		"headline": "Senior ASIC developer for a multi-national company",
+		"description": "We are looking for an Expert ASIC developer who is highly skilled with Verilog for a 1 to 3 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "1 to 3 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d99"
+	},
+	{
+		"skills": [
+			"Verilog",
+			"VHDL"
+		],
+		"createdAt": "2021-01-06T21:03:33.699Z",
+		"_id": "60bf75107d05e359747e3d9a",
+		"headline": "Senior ASIC developer for a private project",
+		"description": "We are looking for an Expert ASIC developer who is highly skilled with VHDL for a Less than 1 month project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "Less than 1 month",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d9a"
+	},
+	{
+		"skills": [
+			"System Verilog",
+			"Verilog"
+		],
+		"createdAt": "2019-09-08T07:46:30.699Z",
+		"_id": "60bf75107d05e359747e3d9b",
+		"headline": "Senior ASIC developer for university portal",
+		"description": "We are looking for an Expert ASIC developer who is highly skilled with System Verilog for a More than 6 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "More than 6 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d9b"
+	},
+	{
+		"skills": [
+			"Kotlin",
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2020-03-15T05:31:22.699Z",
+		"_id": "60bf75107d05e359747e3da2",
+		"headline": "Mid Level Android developer for university portal",
+		"description": "We are looking for an Intermediate Android developer who is highly skilled with MVC for a 1 to 3 months project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "1 to 3 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da2"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"MVC",
+			"SwiftUI"
+		],
+		"createdAt": "2020-11-01T00:41:20.699Z",
+		"_id": "60bf75107d05e359747e3da0",
+		"headline": "Senior iOS developer for university portal",
+		"description": "We are looking for an Expert iOS developer who is highly skilled with Swift for a More than 6 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "More than 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da0"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"CSS"
+		],
+		"createdAt": "2019-08-19T21:28:29.699Z",
+		"_id": "60bf75107d05e359747e3d9c",
+		"headline": "Mid Level Web developer for a multi-national company",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with React.js for a 3 to 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "3 to 6 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d9c"
+	},
+	{
+		"skills": [
+			"Objective-C",
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2020-03-02T06:30:59.699Z",
+		"_id": "60bf75107d05e359747e3d9d",
+		"headline": "Mid Level iOS developer for a private project",
+		"description": "We are looking for an Intermediate iOS developer who is highly skilled with MVC for a Less than 1 month project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d9d"
+	},
+	{
+		"skills": [
+			"MVC",
+			"SwiftUI",
+			"Core ML"
+		],
+		"createdAt": "2020-02-18T14:37:08.699Z",
+		"_id": "60bf75107d05e359747e3d9e",
+		"headline": "Junior iOS developer for a private project",
+		"description": "We are looking for an Entry level iOS developer who is highly skilled with SwiftUI for a 1 to 3 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d9e"
+	},
+	{
+		"skills": [
+			"Xamarin",
+			"Windows Forms",
+			"C#"
+		],
+		"createdAt": "2019-07-04T10:49:43.699Z",
+		"_id": "60bf75107d05e359747e3d9f",
+		"headline": "Mid Level Dot Net developer for university portal",
+		"description": "We are looking for an Intermediate Dot Net developer who is highly skilled with Xamarin for a 1 to 3 months project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "1 to 3 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3d9f"
+	},
+	{
+		"skills": [
+			"Kotlin",
+			"MVVM"
+		],
+		"createdAt": "2020-07-28T23:57:44.699Z",
+		"_id": "60bf75107d05e359747e3da4",
+		"headline": "Junior Android developer for a private project",
+		"description": "We are looking for an Entry level Android developer who is highly skilled with Android SDK for a 3 to 6 months project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da4"
+	},
+	{
+		"skills": [
+			"MVC",
+			"SwiftUI"
+		],
+		"createdAt": "2019-09-18T10:24:28.699Z",
+		"_id": "60bf75107d05e359747e3da1",
+		"headline": "Mid Level iOS developer for a multi-national company",
+		"description": "We are looking for an Intermediate iOS developer who is highly skilled with SwiftUI for a 3 to 6 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "3 to 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da1"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"CSS"
+		],
+		"createdAt": "2020-06-19T21:29:56.699Z",
+		"_id": "60bf75107d05e359747e3da3",
+		"headline": "Mid Level Web developer for a private project",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with Angular.js for a More than 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da3"
+	},
+	{
+		"skills": [
+			"Verilog",
+			"VHDL"
+		],
+		"createdAt": "2020-11-10T06:17:38.699Z",
+		"_id": "60bf75107d05e359747e3da5",
+		"headline": "Mid Level ASIC developer for a multi-national company",
+		"description": "We are looking for an Intermediate ASIC developer who is highly skilled with System Verilog for a Less than 1 month project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da5"
+	},
+	{
+		"skills": [
+			"MVC",
+			"SwiftUI",
+			"Core ML"
+		],
+		"createdAt": "2019-11-05T11:16:38.699Z",
+		"_id": "60bf75107d05e359747e3da6",
+		"headline": "Junior iOS developer for university portal",
+		"description": "We are looking for an Entry level iOS developer who is highly skilled with MVC for a 1 to 3 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da6"
+	},
+	{
+		"skills": [
+			"MVC",
+			"Android SDK"
+		],
+		"createdAt": "2020-04-06T11:18:20.699Z",
+		"_id": "60bf75107d05e359747e3da7",
+		"headline": "Senior Android developer for a multi-national company",
+		"description": "We are looking for an Expert Android developer who is highly skilled with Java for a 3 to 6 months project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da7"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js"
+		],
+		"createdAt": "2019-08-17T20:02:20.699Z",
+		"_id": "60bf75107d05e359747e3da8",
+		"headline": "Mid Level Web developer for university portal",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with Vue.js for a 3 to 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da8"
+	},
+	{
+		"skills": [
+			"C#",
+			"Xamarin",
+			"Windows Forms"
+		],
+		"createdAt": "2019-11-09T15:57:38.699Z",
+		"_id": "60bf75107d05e359747e3da9",
+		"headline": "Mid Level Dot Net developer for a multi-national company",
+		"description": "We are looking for an Intermediate Dot Net developer who is highly skilled with C# for a Less than 1 month project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "Less than 1 month",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3da9"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2020-05-07T07:27:19.699Z",
+		"_id": "60bf75107d05e359747e3dab",
+		"headline": "Senior Android developer for a multi-national company",
+		"description": "We are looking for an Expert Android developer who is highly skilled with Kotlin for a 1 to 3 months project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "1 to 3 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dab"
+	},
+	{
+		"skills": [
+			"VHDL",
+			"System Verilog",
+			"Verilog"
+		],
+		"createdAt": "2020-11-03T04:39:14.699Z",
+		"_id": "60bf75107d05e359747e3daa",
+		"headline": "Junior ASIC developer for a private project",
+		"description": "We are looking for an Entry level ASIC developer who is highly skilled with VHDL for a 3 to 6 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3daa"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2019-08-04T08:05:11.699Z",
+		"_id": "60bf75107d05e359747e3dac",
+		"headline": "Senior Android developer for a private project",
+		"description": "We are looking for an Expert Android developer who is highly skilled with Material Design for a 3 to 6 months project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dac"
+	},
+	{
+		"skills": [
+			"VHDL",
+			"System Verilog",
+			"Verilog"
+		],
+		"createdAt": "2020-12-05T00:29:17.699Z",
+		"_id": "60bf75107d05e359747e3dae",
+		"headline": "Mid Level ASIC developer for a multi-national company",
+		"description": "We are looking for an Intermediate ASIC developer who is highly skilled with System Verilog for a More than 6 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dae"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"CSS"
+		],
+		"createdAt": "2020-02-21T07:28:24.699Z",
+		"_id": "60bf75107d05e359747e3dad",
+		"headline": "Mid Level Web developer for university portal",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with React.js for a 3 to 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dad"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js",
+			"React.js"
+		],
+		"createdAt": "2019-10-20T02:04:15.699Z",
+		"_id": "60bf75107d05e359747e3daf",
+		"headline": "Mid Level Web developer for a private project",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with Vue.js for a More than 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3daf"
+	},
+	{
+		"skills": [
+			"Objective-C",
+			"MVVM"
+		],
+		"createdAt": "2020-04-22T07:45:18.699Z",
+		"_id": "60bf75107d05e359747e3db0",
+		"headline": "Mid Level iOS developer for a multi-national company",
+		"description": "We are looking for an Intermediate iOS developer who is highly skilled with Objective-C for a Less than 1 month project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db0"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2020-02-03T05:55:44.699Z",
+		"_id": "60bf75107d05e359747e3db1",
+		"headline": "Senior iOS developer for a multi-national company",
+		"description": "We are looking for an Expert iOS developer who is highly skilled with MVC for a Less than 1 month project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db1"
+	},
+	{
+		"skills": [
+			"Kotlin",
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2020-05-30T08:23:45.699Z",
+		"_id": "60bf75107d05e359747e3db2",
+		"headline": "Junior Android developer for university portal",
+		"description": "We are looking for an Entry level Android developer who is highly skilled with Java for a More than 6 months project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "More than 6 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db2"
+	},
+	{
+		"skills": [
+			"VHDL",
+			"System Verilog",
+			"Verilog"
+		],
+		"createdAt": "2020-01-14T02:12:45.699Z",
+		"_id": "60bf75107d05e359747e3db3",
+		"headline": "Senior ASIC developer for a multi-national company",
+		"description": "We are looking for an Expert ASIC developer who is highly skilled with VHDL for a Less than 1 month project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db3"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js"
+		],
+		"createdAt": "2020-07-12T12:58:36.699Z",
+		"_id": "60bf75107d05e359747e3db4",
+		"headline": "Junior Web developer for university portal",
+		"description": "We are looking for an Entry level Web developer who is highly skilled with HTML for a Less than 1 month project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db4"
+	},
+	{
+		"skills": [
+			"VHDL",
+			"System Verilog",
+			"Verilog"
+		],
+		"createdAt": "2020-03-20T23:17:37.699Z",
+		"_id": "60bf75107d05e359747e3db5",
+		"headline": "Junior ASIC developer for a private project",
+		"description": "We are looking for an Entry level ASIC developer who is highly skilled with Verilog for a 3 to 6 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "3 to 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db5"
+	},
+	{
+		"skills": [
+			"Xamarin",
+			"Windows Forms",
+			"C#"
+		],
+		"createdAt": "2019-07-19T06:13:02.699Z",
+		"_id": "60bf75107d05e359747e3db6",
+		"headline": "Junior Dot Net developer for a multi-national company",
+		"description": "We are looking for an Entry level Dot Net developer who is highly skilled with Xamarin for a Less than 1 month project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db6"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2020-11-25T14:45:30.699Z",
+		"_id": "60bf75107d05e359747e3db8",
+		"headline": "Senior iOS developer for university portal",
+		"description": "We are looking for an Expert iOS developer who is highly skilled with MVC for a 1 to 3 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "1 to 3 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db8"
+	},
+	{
+		"skills": [
+			"Xamarin",
+			"Windows Forms",
+			"C#"
+		],
+		"createdAt": "2020-06-30T14:17:26.699Z",
+		"_id": "60bf75107d05e359747e3db7",
+		"headline": "Senior Dot Net developer for a multi-national company",
+		"description": "We are looking for an Expert Dot Net developer who is highly skilled with Windows Forms for a 1 to 3 months project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db7"
+	},
+	{
+		"skills": [
+			"C#",
+			"Xamarin",
+			"Windows Forms"
+		],
+		"createdAt": "2019-12-30T22:29:08.699Z",
+		"_id": "60bf75107d05e359747e3db9",
+		"headline": "Senior Dot Net developer for a multi-national company",
+		"description": "We are looking for an Expert Dot Net developer who is highly skilled with Xamarin for a 3 to 6 months project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "3 to 6 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3db9"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"CSS",
+			"Vue.js"
+		],
+		"createdAt": "2020-07-18T07:56:58.699Z",
+		"_id": "60bf75107d05e359747e3dba",
+		"headline": "Junior Web developer for university portal",
+		"description": "We are looking for an Entry level Web developer who is highly skilled with React.js for a Less than 1 month project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "Less than 1 month",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dba"
+	},
+	{
+		"skills": [
+			"Objective-C",
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2019-07-13T11:16:24.699Z",
+		"_id": "60bf75107d05e359747e3dbb",
+		"headline": "Junior iOS developer for university portal",
+		"description": "We are looking for an Entry level iOS developer who is highly skilled with SwiftUI for a More than 6 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "More than 6 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dbb"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js"
+		],
+		"createdAt": "2020-03-21T02:36:51.699Z",
+		"_id": "60bf75107d05e359747e3dbc",
+		"headline": "Mid Level Web developer for university portal",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with Angular.js for a More than 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dbc"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js",
+			"React.js"
+		],
+		"createdAt": "2020-04-19T00:20:15.699Z",
+		"_id": "60bf75107d05e359747e3dbd",
+		"headline": "Junior Web developer for a multi-national company",
+		"description": "We are looking for an Entry level Web developer who is highly skilled with Javascript for a 1 to 3 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dbd"
+	},
+	{
+		"skills": [
+			"C#",
+			"Xamarin"
+		],
+		"createdAt": "2020-12-19T03:25:18.699Z",
+		"_id": "60bf75107d05e359747e3dbe",
+		"headline": "Junior Dot Net developer for a multi-national company",
+		"description": "We are looking for an Entry level Dot Net developer who is highly skilled with Windows Forms for a 1 to 3 months project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dbe"
+	},
+	{
+		"skills": [
+			"MVC",
+			"SwiftUI"
+		],
+		"createdAt": "2021-01-11T04:05:06.699Z",
+		"_id": "60bf75107d05e359747e3dbf",
+		"headline": "Mid Level iOS developer for university portal",
+		"description": "We are looking for an Intermediate iOS developer who is highly skilled with Core ML for a More than 6 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dbf"
+	},
+	{
+		"skills": [
+			"HTML",
+			"MVVM"
+		],
+		"createdAt": "2019-07-16T18:24:28.699Z",
+		"_id": "60bf75107d05e359747e3dc0",
+		"headline": "Mid Level Web developer for a private project",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with Javascript for a More than 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc0"
+	},
+	{
+		"skills": [
+			"C#",
+			"Xamarin",
+			"Windows Forms"
+		],
+		"createdAt": "2020-07-31T20:12:10.699Z",
+		"_id": "60bf75107d05e359747e3dc1",
+		"headline": "Senior Dot Net developer for university portal",
+		"description": "We are looking for an Expert Dot Net developer who is highly skilled with Xamarin for a Less than 1 month project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc1"
+	},
+	{
+		"skills": [
+			"Windows Forms",
+			"C#"
+		],
+		"createdAt": "2020-07-27T23:59:56.699Z",
+		"_id": "60bf75107d05e359747e3dc2",
+		"headline": "Junior Dot Net developer for a private project",
+		"description": "We are looking for an Entry level Dot Net developer who is highly skilled with Windows Forms for a Less than 1 month project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc2"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2019-09-20T21:26:35.699Z",
+		"_id": "60bf75107d05e359747e3dc3",
+		"headline": "Junior Android developer for a private project",
+		"description": "We are looking for an Entry level Android developer who is highly skilled with MVVM for a 1 to 3 months project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc3"
+	},
+	{
+		"skills": [
+			"MVC",
+			"Android SDK"
+		],
+		"createdAt": "2020-10-31T18:08:38.699Z",
+		"_id": "60bf75107d05e359747e3dc4",
+		"headline": "Junior Android developer for university portal",
+		"description": "We are looking for an Entry level Android developer who is highly skilled with Java for a More than 6 months project. Your primary focus will be designing and developing advanced applications for the Android platform.",
+		"category": "Android Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "More than 6 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc4"
+	},
+	{
+		"skills": [
+			"C#",
+			"Xamarin"
+		],
+		"createdAt": "2020-02-27T05:41:08.699Z",
+		"_id": "60bf75107d05e359747e3dc5",
+		"headline": "Mid Level Dot Net developer for a private project",
+		"description": "We are looking for an Intermediate Dot Net developer who is highly skilled with Xamarin for a 1 to 3 months project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "1 to 3 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc5"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2020-03-22T19:38:58.699Z",
+		"_id": "60bf75107d05e359747e3dc6",
+		"headline": "Senior iOS developer for a multi-national company",
+		"description": "We are looking for an Expert iOS developer who is highly skilled with Core Data for a Less than 1 month project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "Less than 1 month",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc6"
+	},
+	{
+		"skills": [
+			"MVVM",
+			"CSS",
+			"Vue.js"
+		],
+		"createdAt": "2020-01-04T20:06:25.699Z",
+		"_id": "60bf75107d05e359747e3dc7",
+		"headline": "Junior Web developer for university portal",
+		"description": "We are looking for an Entry level Web developer who is highly skilled with HTML for a 1 to 3 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc7"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js",
+			"React.js"
+		],
+		"createdAt": "2019-12-03T13:56:56.699Z",
+		"_id": "60bf75107d05e359747e3dc8",
+		"headline": "Mid Level Web developer for a private project",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with React.js for a 3 to 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "3 to 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc8"
+	},
+	{
+		"skills": [
+			"C#",
+			"Xamarin",
+			"Windows Forms"
+		],
+		"createdAt": "2020-01-19T02:28:51.699Z",
+		"_id": "60bf75107d05e359747e3dc9",
+		"headline": "Junior Dot Net developer for university portal",
+		"description": "We are looking for an Entry level Dot Net developer who is highly skilled with C# for a Less than 1 month project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dc9"
+	},
+	{
+		"skills": [
+			"HTML",
+			"MVVM"
+		],
+		"createdAt": "2020-11-22T21:43:12.699Z",
+		"_id": "60bf75107d05e359747e3dca",
+		"headline": "Senior Web developer for a private project",
+		"description": "We are looking for an Expert Web developer who is highly skilled with CSS for a 3 to 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "3 to 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dca"
+	},
+	{
+		"skills": [
+			"Xamarin",
+			"Windows Forms"
+		],
+		"createdAt": "2020-04-30T20:44:08.699Z",
+		"_id": "60bf75107d05e359747e3dcb",
+		"headline": "Senior Dot Net developer for a private project",
+		"description": "We are looking for an Expert Dot Net developer who is highly skilled with Xamarin for a Less than 1 month project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dcb"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js"
+		],
+		"createdAt": "2020-08-29T13:13:07.699Z",
+		"_id": "60bf75107d05e359747e3dcc",
+		"headline": "Mid Level Web developer for university portal",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with CSS for a Less than 1 month project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dcc"
+	},
+	{
+		"skills": [
+			"HTML",
+			"MVVM",
+			"CSS"
+		],
+		"createdAt": "2020-06-23T04:29:06.699Z",
+		"_id": "60bf75107d05e359747e3dcd",
+		"headline": "Junior Web developer for university portal",
+		"description": "We are looking for an Entry level Web developer who is highly skilled with CSS for a Less than 1 month project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "Less than 1 month",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dcd"
+	},
+	{
+		"skills": [
+			"MVC",
+			"SwiftUI",
+			"Core ML"
+		],
+		"createdAt": "2020-04-12T10:24:53.699Z",
+		"_id": "60bf75107d05e359747e3dce",
+		"headline": "Junior iOS developer for university portal",
+		"description": "We are looking for an Entry level iOS developer who is highly skilled with Core Data for a 3 to 6 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dce"
+	},
+	{
+		"skills": [
+			"MVC",
+			"SwiftUI",
+			"Core ML"
+		],
+		"createdAt": "2020-04-12T22:03:07.699Z",
+		"_id": "60bf75107d05e359747e3dcf",
+		"headline": "Senior iOS developer for a private project",
+		"description": "We are looking for an Expert iOS developer who is highly skilled with Swift for a 1 to 3 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "1 to 3 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dcf"
+	},
+	{
+		"skills": [
+			"HTML",
+			"MVVM",
+			"CSS"
+		],
+		"createdAt": "2019-12-01T02:55:41.699Z",
+		"_id": "60bf75107d05e359747e3dd0",
+		"headline": "Mid Level Web developer for a multi-national company",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with Angular.js for a More than 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd0"
+	},
+	{
+		"skills": [
+			"HTML",
+			"MVVM",
+			"CSS"
+		],
+		"createdAt": "2019-08-18T01:25:19.699Z",
+		"_id": "60bf75107d05e359747e3dd1",
+		"headline": "Senior Web developer for a private project",
+		"description": "We are looking for an Expert Web developer who is highly skilled with Vue.js for a 3 to 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd1"
+	},
+	{
+		"skills": [
+			"System Verilog",
+			"Verilog",
+			"VHDL"
+		],
+		"createdAt": "2020-09-12T12:56:23.699Z",
+		"_id": "60bf75107d05e359747e3dd2",
+		"headline": "Mid Level ASIC developer for university portal",
+		"description": "We are looking for an Intermediate ASIC developer who is highly skilled with Verilog for a Less than 1 month project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "Less than 1 month",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd2"
+	},
+	{
+		"skills": [
+			"System Verilog",
+			"Verilog",
+			"VHDL"
+		],
+		"createdAt": "2019-11-23T22:58:21.699Z",
+		"_id": "60bf75107d05e359747e3dd3",
+		"headline": "Senior ASIC developer for a private project",
+		"description": "We are looking for an Expert ASIC developer who is highly skilled with Verilog for a 1 to 3 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd3"
+	},
+	{
+		"skills": [
+			"Objective-C",
+			"MVVM"
+		],
+		"createdAt": "2019-12-01T12:15:37.699Z",
+		"_id": "60bf75107d05e359747e3dd4",
+		"headline": "Mid Level iOS developer for university portal",
+		"description": "We are looking for an Intermediate iOS developer who is highly skilled with MVVM for a More than 6 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd4"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js"
+		],
+		"createdAt": "2020-12-17T22:30:59.699Z",
+		"_id": "60bf75107d05e359747e3dd5",
+		"headline": "Mid Level Web developer for a private project",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with React.js for a More than 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd5"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js"
+		],
+		"createdAt": "2019-08-04T15:09:20.699Z",
+		"_id": "60bf75107d05e359747e3dd6",
+		"headline": "Mid Level Web developer for a multi-national company",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with HTML for a 3 to 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "3 to 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd6"
+	},
+	{
+		"skills": [
+			"Windows Forms",
+			"C#",
+			"Xamarin"
+		],
+		"createdAt": "2021-01-09T22:01:59.699Z",
+		"_id": "60bf75107d05e359747e3dd7",
+		"headline": "Senior Dot Net developer for a private project",
+		"description": "We are looking for an Expert Dot Net developer who is highly skilled with Windows Forms for a Less than 1 month project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "Less than 1 month",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd7"
+	},
+	{
+		"skills": [
+			"Objective-C",
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2020-05-09T08:20:40.699Z",
+		"_id": "60bf75107d05e359747e3dd8",
+		"headline": "Junior iOS developer for university portal",
+		"description": "We are looking for an Entry level iOS developer who is highly skilled with Core Data for a 1 to 3 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd8"
+	},
+	{
+		"skills": [
+			"HTML",
+			"MVVM",
+			"CSS"
+		],
+		"createdAt": "2020-10-19T08:24:43.699Z",
+		"_id": "60bf75107d05e359747e3dd9",
+		"headline": "Senior Web developer for university portal",
+		"description": "We are looking for an Expert Web developer who is highly skilled with Vue.js for a 1 to 3 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dd9"
+	},
+	{
+		"skills": [
+			"Verilog",
+			"VHDL"
+		],
+		"createdAt": "2019-07-27T12:08:23.699Z",
+		"_id": "60bf75107d05e359747e3dda",
+		"headline": "Junior ASIC developer for a multi-national company",
+		"description": "We are looking for an Entry level ASIC developer who is highly skilled with VHDL for a 1 to 3 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dda"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js",
+			"React.js"
+		],
+		"createdAt": "2020-09-15T09:29:29.699Z",
+		"_id": "60bf75107d05e359747e3ddb",
+		"headline": "Mid Level Web developer for a multi-national company",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with CSS for a 1 to 3 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "1 to 3 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3ddb"
+	},
+	{
+		"skills": [
+			"C#",
+			"Xamarin"
+		],
+		"createdAt": "2019-11-30T03:15:36.699Z",
+		"_id": "60bf75107d05e359747e3ddc",
+		"headline": "Junior Dot Net developer for a private project",
+		"description": "We are looking for an Entry level Dot Net developer who is highly skilled with C# for a 1 to 3 months project. Your primary focus will be creating applications from scratch, configuring existing systems and providing user support.",
+		"category": "Dot Net",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "1 to 3 months",
+		"clientId": "6099edb2ba462564c01196ba",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3ddc"
+	},
+	{
+		"skills": [
+			"CSS",
+			"Vue.js",
+			"React.js"
+		],
+		"createdAt": "2020-01-21T12:53:47.699Z",
+		"_id": "60bf75107d05e359747e3ddf",
+		"headline": "Mid Level Web developer for a multi-national company",
+		"description": "We are looking for an Intermediate Web developer who is highly skilled with Vue.js for a 3 to 6 months project. Your primary focus will be writing well designed, testable, efficient code by using best software development practices.",
+		"category": "Front-End Development",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6303d1f08471138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3ddf"
+	},
+	{
+		"skills": [
+			"System Verilog",
+			"Verilog",
+			"VHDL"
+		],
+		"createdAt": "2020-09-25T16:01:32.699Z",
+		"_id": "60bf75107d05e359747e3de1",
+		"headline": "Junior ASIC developer for a private project",
+		"description": "We are looking for an Entry level ASIC developer who is highly skilled with Verilog for a More than 6 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "More than 6 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3de1"
+	},
+	{
+		"skills": [
+			"Objective-C",
+			"MVVM",
+			"MVC"
+		],
+		"createdAt": "2019-11-19T12:27:52.699Z",
+		"_id": "60bf75107d05e359747e3de0",
+		"headline": "Junior iOS developer for university portal",
+		"description": "We are looking for an Entry level iOS developer who is highly skilled with Core ML for a 3 to 6 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "3 to 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3de0"
+	},
+	{
+		"skills": [
+			"MVC",
+			"SwiftUI",
+			"Core ML"
+		],
+		"createdAt": "2020-08-28T19:25:41.699Z",
+		"_id": "60bf75107d05e359747e3dde",
+		"headline": "Junior iOS developer for university portal",
+		"description": "We are looking for an Entry level iOS developer who is highly skilled with MVVM for a More than 6 months project. Your primary focus will be designing and coding the base application, ensuring the quality of the application, fixing application bugs, maintaining the code, and implementing application updates.",
+		"category": "iOS Development",
+		"experience": "Entry level",
+		"minHourlyRate": 20,
+		"maxHourlyRate": 40,
+		"duration": "More than 6 months",
+		"clientId": "609c5048c6393d1f08401138",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3dde"
+	},
+	{
+		"skills": [
+			"System Verilog",
+			"Verilog"
+		],
+		"createdAt": "2020-08-18T12:09:09.699Z",
+		"_id": "60bf75107d05e359747e3de2",
+		"headline": "Senior ASIC developer for university portal",
+		"description": "We are looking for an Expert ASIC developer who is highly skilled with System Verilog for a 1 to 3 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Expert",
+		"minHourlyRate": 80,
+		"maxHourlyRate": 160,
+		"duration": "1 to 3 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3de2"
+	},
+	{
+		"skills": [
+			"Verilog",
+			"VHDL",
+			"System Verilog"
+		],
+		"createdAt": "2019-12-23T09:39:06.699Z",
+		"_id": "60bf75107d05e359747e3ddd",
+		"headline": "Mid Level ASIC developer for a multi-national company",
+		"description": "We are looking for an Intermediate ASIC developer who is highly skilled with Verilog for a 1 to 3 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "1 to 3 months",
+		"clientId": "609c4d318e609c6b88174040",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3ddd"
+	},
+	{
+		"skills": [
+			"Verilog",
+			"VHDL",
+			"System Verilog"
+		],
+		"createdAt": "2020-08-23T08:20:47.699Z",
+		"_id": "60bf75107d05e359747e3de3",
+		"headline": "Mid Level ASIC developer for a private project",
+		"description": "We are looking for an Intermediate ASIC developer who is highly skilled with VHDL for a More than 6 months project. Your primary focus will be constructing architectural design models of ASIC, optimizing design according to client specifications, making product design specification (PDS) statements, and collaborating with the central ASIC design team to deliver accurate and competitive ASIC design solutions.",
+		"category": "ASIC",
+		"experience": "Intermediate",
+		"minHourlyRate": 40,
+		"maxHourlyRate": 80,
+		"duration": "More than 6 months",
+		"clientId": "609c5048c6393d1f08471130",
+		"__v": 0,
+		"id": "60bf75107d05e359747e3de3"
+	}
 ]

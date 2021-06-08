@@ -53,7 +53,7 @@ exports.getJobStats = catchAsync(async (req, res, next) => {
   const stats = await Job.aggregate([
     {
       $group: {
-        _id: { duration: '$duration', experience: '$experience' },
+        _id: null,
         numJobs: { $sum: 1 },
         avgMinHourlyRate: { $avg: '$minHourlyRate' },
         avgMaxHourlyRate: { $avg: '$maxHourlyRate' }

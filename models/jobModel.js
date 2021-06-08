@@ -20,13 +20,13 @@ const jobSchema = new mongoose.Schema(
       type: [String],
       trim: true,
       maxlength: [50, 'Job skill must have less than 50 characters'],
-      minlength: [5, 'Job skill must have more than 5 characters']
+      minlength: [3, 'Job skill must have more than 3 characters']
     },
     category: {
       type: String,
       trim: true,
       maxlength: [50, 'Job category must have less than 50 characters'],
-      minlength: [5, 'Job category must have more than 5 characters']
+      minlength: [3, 'Job category must have more than 3 characters']
     },
     experience: {
       type: String,
@@ -79,10 +79,10 @@ const jobSchema = new mongoose.Schema(
   }
 );
 
-jobSchema.pre('save', async function(next) {
-  this.createdAt = Date();
-  next();
-});
+// jobSchema.pre('save', async function(next) {
+//   this.createdAt = Date();
+//   next();
+// });
 
 // Virtual populate to get a job's proposals
 jobSchema.virtual('proposals', {

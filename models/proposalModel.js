@@ -26,8 +26,7 @@ const proposalSchema = new mongoose.Schema(
       max: [10000, 'Hourly Rate max value is 10000 LE']
     },
     createdAt: {
-      type: Date,
-      default: Date()
+      type: Date
     },
     status: {
       type: String,

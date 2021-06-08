@@ -1,0 +1,241 @@
+[
+	{
+		"name": "Java",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df4"
+			},
+			{
+			"_id": "60bf75187d05e359747e3df9"
+			}
+		]
+	},
+	{
+		"name": "Kotlin",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df4"
+			}
+		]
+	},
+	{
+		"name": "MVVM",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df4"
+			},
+			{
+			"_id": "60bf75187d05e359747e3df5"
+			},
+			{
+			"_id": "60bf75187d05e359747e3df8"
+			}
+		]
+	},
+	{
+		"name": "MVC",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df4"
+			},
+			{
+			"_id": "60bf75187d05e359747e3df8"
+			}
+		]
+	},
+	{
+		"name": "Android SDK",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df4"
+			}
+		]
+	},
+	{
+		"name": "Material Design",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df4"
+			}
+		]
+	},
+	{
+		"name": "Javascript",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df5"
+			},
+			{
+			"_id": "60bf75187d05e359747e3df9"
+			}
+		]
+	},
+	{
+		"name": "HTML",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df5"
+			}
+		]
+	},
+	{
+		"name": "CSS",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df5"
+			}
+		]
+	},
+	{
+		"name": "Vue.js",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df5"
+			}
+		]
+	},
+	{
+		"name": "React.js",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df5"
+			}
+		]
+	},
+	{
+		"name": "Angular.js",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df5"
+			}
+		]
+	},
+	{
+		"name": "Verilog",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df6"
+			}
+		]
+	},
+	{
+		"name": "VHDL",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df6"
+			}
+		]
+	},
+	{
+		"name": "System Verilog",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df6"
+			}
+		]
+	},
+	{
+		"name": "C#",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df7"
+			}
+		]
+	},
+	{
+		"name": "Xamarin",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df7"
+			}
+		]
+	},
+	{
+		"name": "Windows Forms",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df7"
+			}
+		]
+	},
+	{
+		"name": "Swift",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df8"
+			}
+		]
+	},
+	{
+		"name": "Objective-C",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df8"
+			}
+		]
+	},
+	{
+		"name": "SwiftUI",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df8"
+			}
+		]
+	},
+	{
+		"name": "Core ML",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df8"
+			}
+		]
+	},
+	{
+		"name": "Core Data",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df8"
+			}
+		]
+	},
+	{
+		"name": "Node",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df9"
+			}
+		]
+	},
+	{
+		"name": "Php",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df9"
+			}
+		]
+	},
+	{
+		"name": "Ruby on rails",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df9"
+			}
+		]
+	},
+	{
+		"name": "Python",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df9"
+			}
+		]
+	},
+	{
+		"name": "Flask",
+		"categories": [
+			{
+			"_id": "60bf75187d05e359747e3df9"
+			}
+		]
+	}
+]

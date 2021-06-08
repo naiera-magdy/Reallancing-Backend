@@ -5,7 +5,7 @@
         "firstName": "Ahmed",
         "lastName": "Alsakka",
         "email": "sakka99@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "freelancer",
         "location": "Cairo"
     },
@@ -15,7 +15,7 @@
         "firstName": "Ahmed",
         "lastName": "Helmy",
         "email": "ahmedali@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "freelancer",
         "location": "Giza"
     },
@@ -25,7 +25,7 @@
         "firstName": "Mona",
         "lastName": "Zaki",
         "email": "MonaZaki@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "freelancer",
         "location": "Giza"
     },
@@ -35,7 +35,7 @@
         "firstName": "Karim",
         "lastName": "Abdelaziz",
         "email": "kimoo20@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "freelancer",
         "location": "Giza"
     },
@@ -45,7 +45,7 @@
         "firstName": "Khaled",
         "lastName": "Al-Nabawy",
         "email": "khaled11@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "freelancer",
         "location": "Cairo"
     },
@@ -55,7 +55,7 @@
         "firstName": "Yasmine",
         "lastName": "Sabry",
         "email": "yasso92@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "freelancer",
         "location": "Dubai"
     },
@@ -65,7 +65,7 @@
         "firstName": "Amir",
         "lastName": "Karara",
         "email": "amir80@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "freelancer",
         "location": "Alexandria"
 
@@ -76,7 +76,7 @@
         "firstName": "Omar",
         "lastName": "Salama",
         "email": "osalama710@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "freelancer",
         "location": "Giza"
     },
@@ -86,7 +86,7 @@
         "firstName": "Hamo",
         "lastName": "Bika",
         "email": "hamo.bika.vip@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "freelancer",
         "location": "Alexandria"
     },
@@ -96,7 +96,7 @@
         "firstName": "Ashraf",
         "lastName": "Ahmed",
         "email": "ashraf33@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "client",
         "location": "Cairo"
     },
@@ -106,7 +106,7 @@
         "firstName": "Sayed",
         "lastName": "Ragab",
         "email": "sayed22@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "client",
         "location": "Giza"
     },
@@ -116,7 +116,7 @@
         "firstName": "Noha",
         "lastName": "Ali",
         "email": "nohaali@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "client",
         "location": "Giza"
     },
@@ -126,7 +126,7 @@
         "firstName": "Mahmoud",
         "lastName": "Khairy",
         "email": "khairy26@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "client",
         "location": "Giza"
     },
@@ -136,7 +136,7 @@
         "firstName": "Seif",
         "lastName": "Sayed",
         "email": "seif44@gmail.com",
-        "password": "$2a$12$.QJ3eI3KvhyyEKhyFMD20uBIecPjqpvHkQFBC83SVtv1hAT0YnRmy",
+        "password": "pass1234",
         "type": "client",
         "location": "Giza"
     },
@@ -146,8 +146,18 @@
         "firstName":"admin",
         "lastName":"admin",
         "email":"admin@gmail.com",
-        "password":"$2a$12$UrLmy5pG/PBquN9eDjAWcuTaDglHNzwhxpG2RK7PzPeOqri397Kmu",
+        "password":"pass1234",
         "type":"admin",
         "location":"Giza"
+    },
+    {
+        "_id":"60bf6b9f7db7f749085eed93",
+        "rating":4.4,
+        "firstName":"Mohamed",
+        "lastName":"Salah",
+        "email":"mosalah@gmail.com",
+        "password":"pass1234",
+        "type":"freelancer",
+        "location":"Negreej"
     }
 ]
