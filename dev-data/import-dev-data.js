@@ -2,6 +2,7 @@ const fs = require('fs');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const User = require('./../models/userModel');
+const Freelancer = require('./../models/freelancerModel');
 const Job = require('./../models/jobModel');
 const Proposal = require('./../models/proposalModel');
 const Skill = require('./../models/skillModel');
@@ -22,6 +23,9 @@ mongoose
 
 // READ JSON FILE
 const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`, 'utf-8'));
+const freelancers = JSON.parse(
+  fs.readFileSync(`${__dirname}/freelancers.json`, 'utf-8')
+);
 const jobs = JSON.parse(fs.readFileSync(`${__dirname}/jobs.json`, 'utf-8'));
 const categories = JSON.parse(
   fs.readFileSync(`${__dirname}/categories.json`, 'utf-8')
@@ -36,6 +40,7 @@ const importData1 = async () => {
   try {
     await Job.create(jobs);
     await User.create(users, { validateBeforeSave: false });
+    await Freelancer.create(freelancers);
     await Category.create(categories);
     const Jobs = await Job.find();
     fs.writeFileSync(`${__dirname}/jobs.json`, JSON.stringify(Jobs), 'utf-8');
@@ -69,6 +74,7 @@ const deleteData1 = async () => {
   try {
     await Job.deleteMany();
     await User.deleteMany();
+    await Freelancer.deleteMany();
     await Category.deleteMany();
     console.log('Round One Data successfully deleted!');
   } catch (err) {

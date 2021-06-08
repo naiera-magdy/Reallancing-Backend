@@ -24,6 +24,7 @@ router.delete('/deleteMe', userController.getMe, userController.deleteUser);
 
 router.route('/user-stats').get(userController.getUserStats);
 router.route('/freelancer-stats').get(userController.getFreelancerStats);
+router.route('/monthly-plan').get(userController.getMonthlyPlan);
 
 router
   .route('/')

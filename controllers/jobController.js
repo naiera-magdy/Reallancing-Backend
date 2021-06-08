@@ -71,13 +71,14 @@ exports.getJobStats = catchAsync(async (req, res, next) => {
 
 exports.getMonthlyPlan = async (req, res) => {
   try {
-    const year = req.params.year * 1;
+    const d = new Date();
+    d.setFullYear(d.getFullYear() - 3);
     const plan = await Job.aggregate([
       {
         $match: {
           createdAt: {
-            $gte: new Date(`${year}-01-01`),
-            $lte: new Date(`${year}-12-31`)
+            $gte: d,
+            $lte: new Date()
           }
         }
       },
@@ -86,14 +87,14 @@ exports.getMonthlyPlan = async (req, res) => {
           _id: {
             month: {
               $month: '$createdAt'
-            },
-            total: { $sum: 1 }
-          }
+            }
+          },
+          total: { $sum: 1 }
         }
       },
       {
         $sort: {
-          '_id.month': -1
+          '_id.month': 1
         }
       }
     ]);

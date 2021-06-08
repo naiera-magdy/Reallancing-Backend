@@ -197,3 +197,47 @@ exports.getFreelancerStats = catchAsync(async (req, res, next) => {
     }
   });
 });
+
+exports.getMonthlyPlan = async (req, res) => {
+  try {
+    const d = new Date();
+    d.setFullYear(d.getFullYear() - 3);
+    const plan = await User.aggregate([
+      {
+        $match: {
+          createdAt: {
+            $gte: d,
+            $lte: new Date()
+          }
+        }
+      },
+      {
+        $group: {
+          _id: {
+            month: {
+              $month: '$createdAt'
+            }
+          },
+          total: { $sum: 1 }
+        }
+      },
+      {
+        $sort: {
+          '_id.month': 1
+        }
+      }
+    ]);
+
+    res.status(200).json({
+      status: 'success',
+      data: {
+        plan
+      }
+    });
+  } catch (err) {
+    res.status(400).json({
+      status: 'fail',
+      message: err
+    });
+  }
+};

@@ -20,7 +20,7 @@ router
   .route('/:proposalId/sendProposalAcceptance')
   .post(proposalController.sendProposalAcceptance);
 
-router.route('/monthly-plan/:year').get(proposalController.getMonthlyPlan);
+router.route('/monthly-plan').get(proposalController.getMonthlyPlan);
 
 router
   .route('/:id')

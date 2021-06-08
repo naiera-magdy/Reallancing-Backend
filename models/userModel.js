@@ -40,6 +40,10 @@ const userSchema = new mongoose.Schema(
       lowercase: true,
       validate: [validator.isEmail, 'Email is incorrect']
     },
+    createdAt: {
+      type: Date,
+      default: Date()
+    },
     password: {
       type: String,
       required: [true, 'Please provide a password'],
@@ -68,11 +72,6 @@ const userSchema = new mongoose.Schema(
     passwordChangedAt: Date,
     passwordResetToken: String,
     passwordResetExpires: Date,
-    active: {
-      type: Boolean,
-      default: true,
-      select: false
-    },
     rating: {
       type: Number,
       default: 1,
@@ -111,7 +110,6 @@ userSchema.pre('save', async function(next) {
 //Returns a select options object for private user (remove private data from selection)
 userSchema.statics.privateUser = () => {
   return {
-    active: 0,
     __v: 0
   };
 };
@@ -124,7 +122,6 @@ userSchema.statics.publicUser = () => {
     passwordChangedAt: 0,
     passwordResetToken: 0,
     passwordResetExpires: 0,
-    active: 0,
     __v: 0
   };
 };

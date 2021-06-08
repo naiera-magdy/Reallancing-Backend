@@ -26,7 +26,8 @@ const proposalSchema = new mongoose.Schema(
       max: [10000, 'Hourly Rate max value is 10000 LE']
     },
     createdAt: {
-      type: Date
+      type: Date,
+      default: Date()
     },
     status: {
       type: String,
@@ -44,10 +45,10 @@ proposalSchema.plugin(idValidator, {
   message: 'Bad ID value for {PATH}'
 });
 
-proposalSchema.pre('save', async function(next) {
-  this.createdAt = Date();
-  next();
-});
+// proposalSchema.pre('save', async function(next) {
+//   this.createdAt = Date();
+//   next();
+// });
 
 proposalSchema.pre(/^find/, function(next) {
   this.populate({
