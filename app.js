@@ -1,6 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
-
+const path = require('path');
 const cors = require('cors');
 
 const AppError = require('./utils/appError');
@@ -24,6 +24,8 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions));
+
+app.use(express.static(path.join(__dirname, '/dist')));
 
 // 1) MIDDLEWARES
 if (process.env.NODE_ENV === 'development') {
